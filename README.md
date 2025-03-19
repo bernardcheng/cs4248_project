@@ -43,3 +43,4 @@ Pre-requisities: Python Version: 3.11 or newer
 
 1. [stjerneskinn - Gender Neutral Words](https://stjerneskinn.com/gender-neutral-words.htm)
 2. [universalenglish.org - Gender Neutral English](https://universalenglish.org/gender-neutral-english/)
+3. [Canadian Mesuem for Human Rights - Gender-Neutral Terms](https://id.humanrights.ca/appendix-b/)

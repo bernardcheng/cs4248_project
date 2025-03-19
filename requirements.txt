@@ -1,0 +1,15 @@
+ftfy @ file:///home/conda/feedstock_root/build_artifacts/ftfy_1734991082738/work
+langcodes @ file:///home/conda/feedstock_root/build_artifacts/langcodes_1734376437639/work
+language_data @ file:///home/conda/feedstock_root/build_artifacts/language-data_1732032415021/work
+locate @ file:///home/conda/feedstock_root/build_artifacts/locate_1735580590627/work
+marisa-trie @ file:///home/conda/feedstock_root/build_artifacts/marisa-trie_1736178993286/work
+msgpack @ file:///home/conda/feedstock_root/build_artifacts/msgpack-python_1725974992554/work
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1742254795250/work/dist/numpy-2.2.4-cp311-cp311-linux_x86_64.whl#sha256=ee64f9d7bfbf7e4b1cba6f17e34cb75b03864dd9ce13e2820774a41c0132aad4
+pandas @ file:///home/conda/feedstock_root/build_artifacts/pandas_1726878443020/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1733215673016/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1706886791323/work
+regex @ file:///home/conda/feedstock_root/build_artifacts/regex_1730952174577/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1737541069190/work
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1733231326287/work
+wordfreq @ file:///home/conda/feedstock_root/build_artifacts/wordfreq_1700934908844/work

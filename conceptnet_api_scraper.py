@@ -1,3 +1,4 @@
+import os
 import requests
 import pandas as pd
 from utils.text2uri import standardized_uri
@@ -16,9 +17,10 @@ def preprocess(file_path:str) -> list:
     return df[col].to_list()    
     
 
-def main(file_path:str) -> None:
- 
-    word_list = preprocess(file_path)
+def main(folder_path:str) -> None:
+    
+    for file in folder_path:
+        word_list = preprocess(file)
     
     pass
 

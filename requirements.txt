@@ -22,6 +22,7 @@ ipykernel @ file:///home/conda/feedstock_root/build_artifacts/ipykernel_17198454
 ipython @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_ipython_1741457126/work
 ipython_pygments_lexers @ file:///home/conda/feedstock_root/build_artifacts/ipython_pygments_lexers_1737123620466/work
 jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1733300866624/work
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1733736026804/work
 jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1733440914442/work
 jupyter_core @ file:///home/conda/feedstock_root/build_artifacts/jupyter_core_1727163409502/work
 kiwisolver @ file:///home/conda/feedstock_root/build_artifacts/kiwisolver_1725459263097/work
@@ -35,6 +36,7 @@ msgpack @ file:///home/conda/feedstock_root/build_artifacts/msgpack-python_17259
 munkres==1.1.4
 nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1733325553580/work
 numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1742254795250/work/dist/numpy-2.2.4-cp311-cp311-linux_x86_64.whl#sha256=ee64f9d7bfbf7e4b1cba6f17e34cb75b03864dd9ce13e2820774a41c0132aad4
+ordered-set @ file:///home/conda/feedstock_root/build_artifacts/ordered-set_1733927903326/work
 packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1733203243479/work
 pandas @ file:///home/conda/feedstock_root/build_artifacts/pandas_1726878443020/work
 parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1733271261340/work
@@ -57,12 +59,14 @@ pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1706886791323/work
 pyzmq @ file:///home/conda/feedstock_root/build_artifacts/pyzmq_1741805139187/work
 regex @ file:///home/conda/feedstock_root/build_artifacts/regex_1730952174577/work
 requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1733217035951/work
+scikit-learn @ file:///home/conda/feedstock_root/build_artifacts/scikit-learn_1736496745968/work/dist/scikit_learn-1.6.1-cp311-cp311-linux_x86_64.whl#sha256=d3f0d01ef376cb8d55cead654a824455f1021124eef49bbd1bd03ba7954d3028
 scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy-split_1739790648951/work/dist/scipy-1.15.2-cp311-cp311-linux_x86_64.whl#sha256=034f74dff07afe60a41ed832856d3d7e1ec1374d115cd88d525ace252f5b36fc
 seaborn @ file:///home/conda/feedstock_root/build_artifacts/seaborn-split_1733730015268/work
 shiboken6==6.8.2
 six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
 stack_data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1733569443808/work
 statsmodels @ file:///home/conda/feedstock_root/build_artifacts/statsmodels_1727986709728/work
+threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1741878222898/work
 tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1732615904614/work
 tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1735661334605/work
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1733367359838/work

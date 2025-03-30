@@ -71,7 +71,8 @@ def build_from_conceptnet_table(filename, orig_index=(), self_loops=True):
     labels = OrderedSet(orig_index)
 
     totals = defaultdict(float)
-    with open(str(filename), encoding='utf-8') as infile:
+    with open(str(filename), encoding='utf-8') as infile:        
+        next(infile) #start reading from line 2 (skip header row)
         for line in infile:
             start_concept, _, end_concept, _, relation, _, value_str, dataset = line.strip().split(',')
 
@@ -82,6 +83,7 @@ def build_from_conceptnet_table(filename, orig_index=(), self_loops=True):
             try:
                 value = float(value_str)
             except:
+                print(value_str)
                 value = 0.0
 
             mat[index1, index2] = value

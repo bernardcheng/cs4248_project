@@ -74,7 +74,7 @@ def build_from_conceptnet_table(filename, orig_index=(), self_loops=True):
     with open(str(filename), encoding='utf-8') as infile:        
         next(infile) #start reading from line 2 (skip header row)
         for line in infile:
-            start_concept, _, end_concept, _, relation, _, value_str, dataset = line.strip().split(',')
+            end_concept, _, start_concept, _, relation, _, value_str, dataset = line.strip().split(',')
 
             # end_concept, start_concept, value_str, dataset, relation = line.strip().split(',') # for test_reduced.csv
 
@@ -121,8 +121,9 @@ def build_features_from_conceptnet_table(filename):
     feature_labels = OrderedSet()
 
     with open(str(filename), encoding='utf-8') as infile:
+        next(infile) #start reading from line 2 (skip header row)
         for line in infile:
-            start_concept, _, end_concept, _, relation, _, value_str, dataset = line.strip().split(',')
+            end_concept, _, start_concept, _, relation, _, value_str, dataset = line.strip().split(',')
 
             end_concept = replace_numbers(end_concept)
             start_concept = replace_numbers(start_concept)

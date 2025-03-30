@@ -1,18 +1,8 @@
-gender_f.json
-gender_m.json
-gender_n.json [gender neutral words]
+gender_f.csv
+gender_m.csv
+gender_n.csv [gender neutral words]
 Source:
 https://github.com/ecmonsen/gendered_words/blob/master/gendered_words.json 
 
-green_texts.csv 
-red_texts.csv
-Source: https://universalenglish.org/gender-neutral-terms/ 
 
-gendered_word_list.csv
-word_list.csv [gender neutral]
-Source: https://kathysteinemann.com/Musings/gender-neutral/ 
-
-
-Other sources found but haven't explored
-https://github.com/tolga-b/debiaswe/tree/master/data
-https://github.com/microsoft/responsible-ai-toolbox-genbit/tree/main/genbit/gendered-word-lists/en 
+gender_netural_medium.csv - Subset of gender_n_cleaned.csv (frac=0.25, random_state=42), with only single-word entries. Merged with gender_neutral.csv

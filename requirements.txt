@@ -35,6 +35,7 @@ matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib
 msgpack @ file:///home/conda/feedstock_root/build_artifacts/msgpack-python_1725974992554/work
 munkres==1.1.4
 nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1733325553580/work
+numexpr @ file:///home/conda/feedstock_root/build_artifacts/numexpr_1732612823954/work
 numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1742254795250/work/dist/numpy-2.2.4-cp311-cp311-linux_x86_64.whl#sha256=ee64f9d7bfbf7e4b1cba6f17e34cb75b03864dd9ce13e2820774a41c0132aad4
 ordered-set @ file:///home/conda/feedstock_root/build_artifacts/ordered-set_1733927903326/work
 packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1733203243479/work
@@ -49,6 +50,7 @@ prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolki
 psutil @ file:///home/conda/feedstock_root/build_artifacts/psutil_1740663149797/work
 ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1733302279685/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl#sha256=92c32ff62b5fd8cf325bec5ab90d7be3d2a8ca8c8a3813ff487a8d2002630d1f
 pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1733569405015/work
+py-cpuinfo @ file:///home/conda/feedstock_root/build_artifacts/py-cpuinfo_1733236359728/work
 pycparser @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pycparser_1733195786/work
 Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1736243443484/work
 pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1735698276679/work
@@ -66,6 +68,7 @@ shiboken6==6.8.2
 six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
 stack_data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1733569443808/work
 statsmodels @ file:///home/conda/feedstock_root/build_artifacts/statsmodels_1727986709728/work
+tables @ file:///home/conda/feedstock_root/build_artifacts/pytables_1740639842946/work
 threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1741878222898/work
 tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1732615904614/work
 tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1735661334605/work

@@ -176,3 +176,4 @@ cython_debug/
 # Custom
 data/conceptnet_api/
 bias_detection/results/
+bias_detection/word2vec/GoogleNews-vectors-negative300.bin.gz

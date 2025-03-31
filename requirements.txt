@@ -4,6 +4,7 @@ aiosignal @ file:///home/conda/feedstock_root/build_artifacts/aiosignal_17343421
 asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1733250440834/work
 attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1741918516150/work
 Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_1725267488082/work
+cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
 certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1739515848642/work/certifi
 cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1725560564262/work
 charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1735929714516/work
@@ -23,6 +24,7 @@ frozenlist @ file:///home/conda/feedstock_root/build_artifacts/frozenlist_173764
 fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1734650190311/work
 ftfy @ file:///home/conda/feedstock_root/build_artifacts/ftfy_1734991082738/work
 h2 @ file:///home/conda/feedstock_root/build_artifacts/h2_1738578511449/work
+h5py @ file:///home/conda/feedstock_root/build_artifacts/h5py_1739952246704/work
 hpack @ file:///home/conda/feedstock_root/build_artifacts/hpack_1737618293087/work
 huggingface_hub @ file:///home/conda/feedstock_root/build_artifacts/huggingface_hub_1741710986684/work
 hyperframe @ file:///home/conda/feedstock_root/build_artifacts/hyperframe_1737618333194/work

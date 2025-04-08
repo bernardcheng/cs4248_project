@@ -110,6 +110,13 @@ class FuzzyWeightFilter(Filter):
         scored_edges = [(edge, self._fuzzy_membership(edge['weight'])) for edge in edges]
         # Keep edges with non-zero membership scores
         return [edge for edge, score in scored_edges if score > 0.0]
+    
+class RemoveRelationTypeFilter(Filter):
+    def __init__(self, disallowed_relations: List[str]):
+        self.disallowed_relations = disallowed_relations
+    
+    def __call__(self, edges: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        return [edge for edge in edges if edge['rel']['@id'] not in self.disallowed_relations]
 
 # Pre-configured filter combinations
 def create_default_filter() -> CompositeFilter:
@@ -193,4 +200,10 @@ def create_semantic_similarity_filter(target_weight: float,languages: List[str] 
     return CompositeFilter([
         LanguageFilter(languages),
         FuzzyWeightFilter(target_weight=target_weight, tolerance=tolerance)
+    ])
+
+def create_remove_relation_type_filter(disallowed_relations: List[str]) -> CompositeFilter:
+    """Remove edges with specific relation types"""
+    return CompositeFilter([
+        RemoveRelationTypeFilter(disallowed_relations)
     ])

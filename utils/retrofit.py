@@ -11,7 +11,7 @@ def sharded_retrofit(
     conceptnet_filename,
     output_filename,
     iterations=5,
-    nshards=6,
+    nshards=8,
     verbosity=0,
     max_cleanup_iters=20,
     orig_vec_weight=0.15,

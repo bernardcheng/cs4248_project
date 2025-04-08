@@ -113,7 +113,13 @@ class FuzzyWeightFilter(Filter):
 
 # Pre-configured filter combinations
 def create_default_filter() -> CompositeFilter:
-    """Default filter to keep edges with above average weight and specific relation types"""
+    """Default filter to keep edges with above average weight"""
+    return CompositeFilter([
+        AverageWeightFilter(),
+    ])
+
+def create_average_weighted_relation_filter() -> CompositeFilter:
+    """Keep edges with specific relation types and above average weight"""
     return CompositeFilter([
         AverageWeightFilter(),
         RelationTypeFilter([

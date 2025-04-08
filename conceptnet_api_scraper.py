@@ -93,6 +93,7 @@ if __name__ == "__main__":
     # scrape_keywords(input_folder=KEYWORD_PATH, output_folder=JSON_PATH)
     from scraper_filter import (
         create_basic_weight_filter,
+        create_average_weighted_relation_filter,
         create_high_quality_filter,
         create_multilingual_weighted_filter,
         create_relation_specific_filter,

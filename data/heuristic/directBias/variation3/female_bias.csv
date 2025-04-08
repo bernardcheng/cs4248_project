@@ -11,7 +11,7 @@ word,bias,group
 /c/en/au_pair_girl,,
 /c/en/aunt,,
 /c/en/authoress,,
-/c/en/aviatrix,0.003611300033739431,female
+/c/en/aviatrix,0.002211477796499008,female
 /c/en/ayah,,
 /c/en/b-girl,,
 /c/en/bacchante,,
@@ -39,7 +39,7 @@ word,bias,group
 /c/en/bondwoman,,
 /c/en/bride,,
 /c/en/bridesmaid,,
-/c/en/broad,0.7011307077587803,female
+/c/en/broad,0.7045948132621591,female
 /c/en/brownie,,
 /c/en/businesswoman,,
 /c/en/butch,,
@@ -81,7 +81,7 @@ word,bias,group
 /c/en/dairymaid,,
 /c/en/dame,,
 /c/en/damsel,,
-/c/en/daughter,0.4286674670464029,female
+/c/en/daughter,0.4163534154245672,female
 /c/en/daughter-in-law,,
 /c/en/daygirl,,
 /c/en/deaconess,,
@@ -106,7 +106,7 @@ word,bias,group
 /c/en/fairy_godmother,,
 /c/en/farm_girl,,
 /c/en/farmerette,,
-/c/en/female,0.10895588385440916,female
+/c/en/female,0.1068832555964696,female
 /c/en/female_aristocrat,,
 /c/en/female_child,,
 /c/en/female_offspring,,
@@ -129,7 +129,7 @@ word,bias,group
 /c/en/gamine,,
 /c/en/geisha,,
 /c/en/gibson_girl,,
-/c/en/girl,0.6973357586745205,female
+/c/en/girl,0.7061838573893693,female
 /c/en/girl_friday,,
 /c/en/girl_scout,,
 /c/en/girl_wonder,,
@@ -156,7 +156,7 @@ word,bias,group
 /c/en/harridan,,
 /c/en/headmistress,,
 /c/en/heiress,,
-/c/en/her,0.7011748942785303,female
+/c/en/her,0.7061136955003311,female
 /c/en/heroine,,
 /c/en/hers,,
 /c/en/herself,,
@@ -177,8 +177,8 @@ word,bias,group
 /c/en/jezebel,,
 /c/en/jilt,,
 /c/en/kinswoman,,
-/c/en/ladies,0.0017370963432670403,female
-/c/en/lady,0.6954663927774245,female
+/c/en/ladies,0.0012224323438348895,female
+/c/en/lady,0.7010880639047071,female
 /c/en/lady's_maid,,
 /c/en/ladylove,,
 /c/en/landlady,,
@@ -214,10 +214,10 @@ word,bias,group
 /c/en/milady,,
 /c/en/mill-girl,,
 /c/en/millionairess,,
-/c/en/miss,0.702849759299306,female
+/c/en/miss,0.7032659326275656,female
 /c/en/missus,,
 /c/en/mistress,,
-/c/en/mother,0.5014454043445583,female
+/c/en/mother,0.5230240816840462,female
 /c/en/mother_figure,,
 /c/en/mother_hen,,
 /c/en/mother-in-law,,
@@ -269,7 +269,7 @@ word,bias,group
 /c/en/protegee,,
 /c/en/puerpera,,
 /c/en/quadripara,,
-/c/en/queen,0.7020942906583995,female
+/c/en/queen,0.7064214623163131,female
 /c/en/queen_consort,,
 /c/en/queen_dowager,,
 /c/en/queen_mother,,
@@ -301,7 +301,7 @@ word,bias,group
 /c/en/sibyl,,
 /c/en/signora,,
 /c/en/signorina,,
-/c/en/sister,0.005509427238270072,female
+/c/en/sister,0.004334947967526398,female
 /c/en/sister-in-law,,
 /c/en/skivvy,,
 /c/en/slattern,,
@@ -359,9 +359,9 @@ word,bias,group
 /c/en/white_slave,,
 /c/en/white_woman,,
 /c/en/widow,,
-/c/en/wife,0.0021848089072010785,female
-/c/en/woman,0.6680042365690249,female
-/c/en/women,0.039790772800440286,female
+/c/en/wife,0.0011947627320783609,female
+/c/en/woman,0.6649020304032789,female
+/c/en/women,0.030233872177505058,female
 /c/en/wonder_woman,,
 /c/en/working_girl,,
 /c/en/yellow_woman,,

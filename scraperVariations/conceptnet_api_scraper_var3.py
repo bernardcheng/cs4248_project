@@ -16,15 +16,9 @@ KEYWORD_PATH = os.path.join(os.getcwd(), "data", "gender_neutral")
 JSON_PATH = os.path.join(os.getcwd(), "data", "conceptnet_api", "json")
 CSV_PATH = os.path.join(os.getcwd(), "data", "conceptnet_api", "csv")
 
-# Set of relations that may not be useful: 
-# /r/Antonym	        | Encourages oppositional meaning (e.g., "man" ↔ "woman")
-# /r/NotDesires	        | Subjective, often culturally biased (e.g., "woman not desire war")
-# /r/ObstructedBy	    | Rare and often noisy
-# /r/DistinguishedFrom	| Creates explicit separations between concepts
-# /r/MannerOf	        | Can imply stereotypical actions/roles
-# /r/Desires	        | Often reflects social roles and expectations
+# ConceptNet consists of both unidirectional and bidirectional edges.
 
-# Filtering here on the set above
+# Filtering here on only unidirectional edges.
 
 def preprocess(file_path:str) -> list:
     """
@@ -77,8 +71,6 @@ def parse_response(input_folder:str, output_folder:str) -> None:
     json_files = [file for file in os.listdir(input_folder) if file.split('.')[-1]=='json']
 
     keywords = {'end_id': [], 'end_label': [], 'start_id': [], 'start_label': [], 'rel_id': [], 'surface_text': [], 'weight': [], 'dataset': []}
-    # Toggle to filter certain relations
-    blacklisted_relations = {"/r/Antonym", "/r/NotDesires", "/r/Desires", "/r/ObstructedBy", "/r/MannerOf"}
 
     for file in tqdm(json_files):
         with open(f"{input_folder}/{file}", 'r') as f:
@@ -88,33 +80,37 @@ def parse_response(input_folder:str, output_folder:str) -> None:
             weights = [edge['weight'] for edge in data]
             if len(weights) > 0: 
                 ave_weight = sum(weights)/len(weights)  
-
+                edge_records = []
+                edge_lookup = set()
                 for edge in data:
-                    # Filtering done here
-                    rel_id = edge['rel']['@id']
-                    if rel_id in blacklisted_relations:
-                        continue
+                    try:
+                        start = edge['start']['@id']
+                        end = edge['end']['@id']
+                        rel = edge['rel']['@id']
+                        weight = edge['weight']
 
-                    # Filter to only keep simple URIs like /c/en/word
-                    # start_id = edge['start']['@id']
-                    # end_id = edge['end']['@id']
-                    # if start_id.count('/') > 3 or end_id.count('/') > 3:
-                    #     continue
+                        edge_tuple = (start, end, rel)
+                        edge_records.append((edge_tuple, edge))
+                        edge_lookup.add(edge_tuple)
+                    except KeyError:
+                        continue  # skip malformed edges
 
                     if edge['weight'] >= ave_weight:
-                        # Store keyword infromation
-                        keywords['end_id'].append(edge['end']['@id'])
-                        keywords['end_label'].append(edge['end']['label'])
-                        keywords['start_id'].append(edge['start']['@id'])
-                        keywords['start_label'].append(edge['start']['label'])                
-                        keywords['rel_id'].append(edge['rel']['@id'])
-                        keywords['surface_text'].append(edge['surfaceText'])
-                        keywords['weight'].append(edge['weight']) 
-                        keywords['dataset'].append(edge['dataset'])
+                        for (start, end, rel), edge in edge_records:
+                            if (end, start, rel) not in edge_lookup:
+                                # Passed unidirectional check — save keyword info
+                                keywords['start_id'].append(start)
+                                keywords['start_label'].append(edge['start']['label'])
+                                keywords['end_id'].append(end)
+                                keywords['end_label'].append(edge['end']['label'])
+                                keywords['rel_id'].append(rel)
+                                keywords['surface_text'].append(edge['surfaceText'])
+                                keywords['weight'].append(weight)
+                                keywords['dataset'].append(edge['dataset'])
 
     keywords_df = pd.DataFrame.from_dict(keywords).drop_duplicates()
     # Change output file name corresponding to variation
-    keywords_df.to_csv(f'{output_folder}/edge_extractVar2.csv', index=False)
+    keywords_df.to_csv(f'{output_folder}/edge_extractVar3.csv', index=False)
     return
 
 

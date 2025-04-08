@@ -1,6 +1,7 @@
 from typing import List, Dict, Any
 from scraper_filter import (
     CompositeFilter,
+    create_default_filter,
     create_basic_weight_filter,
     create_average_weighted_relation_filter,
     create_high_quality_filter,

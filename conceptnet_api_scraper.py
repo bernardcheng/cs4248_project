@@ -100,7 +100,9 @@ if __name__ == "__main__":
         create_dataset_specific_filter,
         create_comprehensive_filter,
         create_statistical_outlier_filter,
-        create_semantic_similarity_filter
+        create_semantic_similarity_filter,
+        create_remove_relation_type_filter
     )
 
     parse_response(input_folder=JSON_PATH, output_folder=CSV_PATH)
+    # parse_response(input_folder=JSON_PATH, output_folder=CSV_PATH, edge_filter=create_basic_weight_filter())

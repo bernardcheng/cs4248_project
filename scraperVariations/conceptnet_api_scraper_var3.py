@@ -95,18 +95,18 @@ def parse_response(input_folder:str, output_folder:str) -> None:
                     except KeyError:
                         continue  # skip malformed edges
 
-                    if edge['weight'] >= ave_weight:
-                        for (start, end, rel), edge in edge_records:
-                            if (end, start, rel) not in edge_lookup:
-                                # Passed unidirectional check — save keyword info
-                                keywords['start_id'].append(start)
-                                keywords['start_label'].append(edge['start']['label'])
-                                keywords['end_id'].append(end)
-                                keywords['end_label'].append(edge['end']['label'])
-                                keywords['rel_id'].append(rel)
-                                keywords['surface_text'].append(edge['surfaceText'])
-                                keywords['weight'].append(weight)
-                                keywords['dataset'].append(edge['dataset'])
+                for (start, end, rel), edge in edge_records:
+                    weight = edge['weight']
+                    if weight >= ave_weight and (end, start, rel) not in edge_lookup:
+                        keywords['start_id'].append(start)
+                        keywords['start_label'].append(edge['start']['label'])
+                        keywords['end_id'].append(end)
+                        keywords['end_label'].append(edge['end']['label'])
+                        keywords['rel_id'].append(rel)
+                        keywords['surface_text'].append(edge.get('surfaceText', ''))
+                        keywords['weight'].append(weight)
+                        keywords['dataset'].append(edge.get('dataset', ''))
+
 
     keywords_df = pd.DataFrame.from_dict(keywords).drop_duplicates()
     # Change output file name corresponding to variation

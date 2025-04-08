@@ -19,6 +19,11 @@ Pre-requisities: Python Version: 3.11 or newer
     pip install -r requirements.txt
     ```
 
+    c. Using `uv`:
+    ```bash
+    uv sync
+    ```
+
 
 
 ### Export environment
@@ -37,6 +42,11 @@ Pre-requisities: Python Version: 3.11 or newer
     ```
     ```bash
     pip freeze > requirements.txt
+    ```
+
+3. Via `uv`
+    ```bash
+    uv export > environment.yml
     ```
 
 ### Data download (Google Drive Folder - [conceptnet_api](https://drive.google.com/drive/folders/1uRUyJ6fJibOaSdrZ3C-0QXYwrtH4Efj7?usp=sharing))

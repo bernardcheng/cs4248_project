@@ -5,10 +5,14 @@ import requests
 import pandas as pd
 from tqdm import tqdm
 from utils.text2uri import standardized_uri
+from scraper_filter import create_default_filter
 
 KEYWORD_PATH = os.path.join(os.getcwd(), "data", "gender_neutral")
 JSON_PATH = os.path.join(os.getcwd(), "data", "conceptnet_api", "json")
 CSV_PATH = os.path.join(os.getcwd(), "data", "conceptnet_api", "csv")
+
+# Default filter configuration
+DEFAULT_FILTER = create_default_filter()
 
 def preprocess(file_path:str) -> list:
     """
@@ -54,7 +58,7 @@ def scrape_keywords(input_folder:str, output_folder:str, edge_limit:int=500) -> 
             elapsed_time = time.time() - start_time 
     return
 
-def parse_response(input_folder:str, output_folder:str) -> None:
+def parse_response(input_folder:str, output_folder:str, edge_filter=DEFAULT_FILTER) -> None:
     """
     Helper function to read raw JSON files and extract key field information from each edge.        
     """
@@ -65,23 +69,20 @@ def parse_response(input_folder:str, output_folder:str) -> None:
     for file in tqdm(json_files):
         with open(f"{input_folder}/{file}", 'r') as f:
             data = json.load(f)
+            
+            # Apply the filter
+            filtered_edges = edge_filter(data)
 
-            # iterate each edge and get average of edge weights
-            weights = [edge['weight'] for edge in data]
-            if len(weights) > 0: 
-                ave_weight = sum(weights)/len(weights)  
-
-                for edge in data:
-                    if edge['weight'] >= ave_weight:
-                        # Store keyword infromation
-                        keywords['end_id'].append(edge['end']['@id'])
-                        keywords['end_label'].append(edge['end']['label'])
-                        keywords['start_id'].append(edge['start']['@id'])
-                        keywords['start_label'].append(edge['start']['label'])                
-                        keywords['rel_id'].append(edge['rel']['@id'])
-                        keywords['surface_text'].append(edge['surfaceText'])
-                        keywords['weight'].append(edge['weight']) 
-                        keywords['dataset'].append(edge['dataset'])   
+            # Store filtered edge information
+            for edge in filtered_edges:
+                keywords['end_id'].append(edge['end']['@id'])
+                keywords['end_label'].append(edge['end']['label'])
+                keywords['start_id'].append(edge['start']['@id'])
+                keywords['start_label'].append(edge['start']['label'])                
+                keywords['rel_id'].append(edge['rel']['@id'])
+                keywords['surface_text'].append(edge['surfaceText'])
+                keywords['weight'].append(edge['weight']) 
+                keywords['dataset'].append(edge['dataset'])   
 
     keywords_df = pd.DataFrame.from_dict(keywords).drop_duplicates()
     keywords_df.to_csv(f'{output_folder}/edge_extract.csv', index=False)
@@ -90,4 +91,16 @@ def parse_response(input_folder:str, output_folder:str) -> None:
 
 if __name__ == "__main__":    
     # scrape_keywords(input_folder=KEYWORD_PATH, output_folder=JSON_PATH)
+    from scraper_filter import (
+        create_basic_weight_filter,
+        create_average_weighted_relation_filter,
+        create_high_quality_filter,
+        create_multilingual_weighted_filter,
+        create_relation_specific_filter,
+        create_dataset_specific_filter,
+        create_comprehensive_filter,
+        create_statistical_outlier_filter,
+        create_semantic_similarity_filter
+    )
+
     parse_response(input_folder=JSON_PATH, output_folder=CSV_PATH)

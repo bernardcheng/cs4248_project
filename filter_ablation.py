@@ -21,7 +21,7 @@ DEFAULT_LANGUAGES = ['en']
 
 filter_chains = {
     # weight threshold changes
-    'baseline': create_average_weighted_relation_filter(),
+    'baseline': create_default_filter(),
     'baseline_lenient': create_basic_weight_filter(min_weight=0.1),
     'baseline_strict': create_basic_weight_filter(min_weight=0.5),
     

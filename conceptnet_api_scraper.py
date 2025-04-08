@@ -86,7 +86,7 @@ def parse_response(input_folder:str, output_folder:str, edge_filter=DEFAULT_FILT
 
     keywords_df = pd.DataFrame.from_dict(keywords).drop_duplicates()
     keywords_df.to_csv(f'{output_folder}/edge_extract.csv', index=False)
-    return
+    return keywords_df
 
 
 if __name__ == "__main__":    

@@ -21,10 +21,9 @@ DEFAULT_LANGUAGES = ['en']
 
 filter_chains = {
     # weight threshold changes
-    'baseline': create_basic_weight_filter(min_weight=DEFAULT_MIN_WEIGHT),
-    'baseline_strict': create_basic_weight_filter(min_weight=0.5),
+    'baseline': create_average_weighted_relation_filter(),
     'baseline_lenient': create_basic_weight_filter(min_weight=0.1),
-    'average_weight': create_average_weighted_relation_filter(),
+    'baseline_strict': create_basic_weight_filter(min_weight=0.5),
     
     # statistical outlier variations
     'statistical_outliers': create_statistical_outlier_filter(num_stdev=2.0, top_k=DEFAULT_TOP_K),

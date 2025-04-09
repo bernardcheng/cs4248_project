@@ -166,12 +166,11 @@ def create_dataset_specific_filter(datasets: List[str]) -> CompositeFilter:
         DatasetFilter(datasets)
     ])
 
-def create_comprehensive_filter(languages: List[str], relations: List[str], datasets: List[str], min_weight: float = 0.5) -> CompositeFilter:
+def create_comprehensive_filter(languages: List[str], relations: List[str], min_weight: float = 0.5) -> CompositeFilter:
     """Keep edges that pass multiple criteria - language, relation type, dataset, weight threshold, and top-K"""
     return CompositeFilter([
         LanguageFilter(languages),
         RelationTypeFilter(relations),
-        DatasetFilter(datasets),
         WeightThresholdFilter(min_weight)
     ])
 

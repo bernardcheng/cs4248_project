@@ -17,7 +17,6 @@ from scraper_filter import (
 DEFAULT_MIN_WEIGHT = 0.3
 DEFAULT_TOP_K = 50
 DEFAULT_RELATIONS = ['/r/RelatedTo', '/r/Synonym', '/r/IsA', '/r/HasProperty', '/r/CapableOf']
-DEFAULT_DATASETS = ['/d/wiktionary/en', '/d/wordnet/3.1']
 DEFAULT_LANGUAGES = ['en']
 
 filter_chains = {
@@ -73,20 +72,6 @@ filter_chains = {
     # dataset quality variations
     'high_quality': create_high_quality_filter(),
     
-    # dataset source variations
-    'dataset_specific': create_dataset_specific_filter(
-        datasets=DEFAULT_DATASETS
-    ),
-    'dataset_wiktionary_only': create_dataset_specific_filter(
-        datasets=['/d/wiktionary/en']
-    ),
-    'dataset_wordnet_only': create_dataset_specific_filter(
-        datasets=['/d/wordnet/3.1']
-    ),
-    'dataset_wiktionary_wordnet': create_dataset_specific_filter(
-        datasets=['/d/wiktionary/en', '/d/wordnet/3.1']
-    ),
-    
     # semantic similarity variations
     'semantic_similarity': create_semantic_similarity_filter(
         target_weight=0.5,
@@ -113,25 +98,21 @@ filter_chains = {
     'comprehensive': create_comprehensive_filter(
         languages=DEFAULT_LANGUAGES,
         relations=DEFAULT_RELATIONS,
-        datasets=DEFAULT_DATASETS,
         min_weight=DEFAULT_MIN_WEIGHT
     ),
     'comprehensive_strict': create_comprehensive_filter(
         languages=DEFAULT_LANGUAGES,
         relations=DEFAULT_RELATIONS,
-        datasets=DEFAULT_DATASETS,
         min_weight=0.5
     ),
     'comprehensive_lenient': create_comprehensive_filter(
         languages=DEFAULT_LANGUAGES,
         relations=DEFAULT_RELATIONS + ['/r/DerivedFrom'],
-        datasets=DEFAULT_DATASETS,
         min_weight=0.2
     ),
     'comprehensive_high_quality': create_comprehensive_filter(
         languages=DEFAULT_LANGUAGES,
         relations=DEFAULT_RELATIONS,
-        datasets=DEFAULT_DATASETS,
         min_weight=0.5
     ),
 }

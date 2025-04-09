@@ -134,12 +134,6 @@ filter_chains = {
         datasets=DEFAULT_DATASETS,
         min_weight=0.5
     ),
-    'comprehensive_high_quality_strict': create_comprehensive_filter(
-        languages=DEFAULT_LANGUAGES,
-        relations=DEFAULT_RELATIONS,
-        datasets=DEFAULT_DATASETS,
-        min_weight=0.7
-    ),
 }
 
 def get_all_filter_chains() -> Dict[str, CompositeFilter]:

@@ -45,7 +45,7 @@ word,bias,group
 /c/en/bondman,,
 /c/en/bondsman,,
 /c/en/border_patrolman,,
-/c/en/boy,0.6475891470909119,male
+/c/en/boy,0.6449082493782043,male
 /c/en/boy_scout,,
 /c/en/boy_wonder,,
 /c/en/boyfriend,,
@@ -82,7 +82,7 @@ word,bias,group
 /c/en/church_father,,
 /c/en/city_man,,
 /c/en/clansman,,
-/c/en/clergyman,0.04169554263353348,male
+/c/en/clergyman,0.03829323872923851,male
 /c/en/cleric,,
 /c/en/closet_queen,,
 /c/en/coachman,,
@@ -98,7 +98,7 @@ word,bias,group
 /c/en/councilman,,
 /c/en/count,,
 /c/en/countertenor,,
-/c/en/countryman,0.02528253197669983,male
+/c/en/countryman,0.025164134800434113,male
 /c/en/cowboy,,
 /c/en/craftsman,,
 /c/en/crewman,,
@@ -109,7 +109,7 @@ word,bias,group
 /c/en/curandero,,
 /c/en/cyril,,
 /c/en/czar,,
-/c/en/dad,0.03247123211622238,male
+/c/en/dad,0.03108234331011772,male
 /c/en/dairyman,,
 /c/en/dalesman,,
 /c/en/dandy,,
@@ -156,7 +156,7 @@ word,bias,group
 /c/en/fancy_man,,
 /c/en/farm_boy,,
 /c/en/fathead,,
-/c/en/father,0.016936136409640312,male
+/c/en/father,0.015460945665836334,male
 /c/en/father_figure,,
 /c/en/father-figure,,
 /c/en/father-in-law,,
@@ -204,7 +204,7 @@ word,bias,group
 /c/en/good_old_boy,,
 /c/en/grand_duke,,
 /c/en/grandee,,
-/c/en/grandfather,0.029890434816479683,male
+/c/en/grandfather,0.028228195384144783,male
 /c/en/grandson,,
 /c/en/grass_widower,,
 /c/en/great_grandfather,,
@@ -217,7 +217,7 @@ word,bias,group
 /c/en/groundsman,,
 /c/en/guardsman,,
 /c/en/gunman,,
-/c/en/guy,0.07904825359582901,male
+/c/en/guy,0.07442910969257355,male
 /c/en/handyman,,
 /c/en/hangman,,
 /c/en/hatchet_man,,
@@ -254,7 +254,7 @@ word,bias,group
 /c/en/jute,,
 /c/en/kaiser,,
 /c/en/kennan,,
-/c/en/king,0.03233965486288071,male
+/c/en/king,0.030620509758591652,male
 /c/en/king_of_england,,
 /c/en/king_of_france,,
 /c/en/king_of_the_germans,,
@@ -281,7 +281,7 @@ word,bias,group
 /c/en/lobsterman,,
 /c/en/longbowman,,
 /c/en/loon,,
-/c/en/lord,0.037733230739831924,male
+/c/en/lord,0.034834954887628555,male
 /c/en/lord_chancellor,,
 /c/en/lothario,,
 /c/en/lounge_lizard,,
@@ -299,7 +299,7 @@ word,bias,group
 /c/en/male_offspring,,
 /c/en/male_sibling,,
 /c/en/malik,,
-/c/en/man,0.7115867733955383,male
+/c/en/man,0.6892780065536499,male
 /c/en/man_jack,,
 /c/en/man_of_letters,,
 /c/en/man_of_means,,
@@ -311,7 +311,7 @@ word,bias,group
 /c/en/marquis,,
 /c/en/masseur,,
 /c/en/medicine_man,,
-/c/en/men,0.6994141340255737,male
+/c/en/men,0.6995333433151245,male
 /c/en/mesne_lord,,
 /c/en/messenger_boy,,
 /c/en/mestizo,,
@@ -338,15 +338,15 @@ word,bias,group
 /c/en/mullah,,
 /c/en/muscleman,,
 /c/en/nabob,,
-/c/en/nephew,0.030556511133909225,male
-/c/en/night_watchman,0.07693137228488922,male
+/c/en/nephew,0.028715498745441437,male
+/c/en/night_watchman,0.07499570399522781,male
 /c/en/novillero,,
 /c/en/nuncio,,
 /c/en/oarsman,,
 /c/en/office_boy,,
 /c/en/oilman,,
 /c/en/oklahoman,,
-/c/en/old_boy,0.6469224691390991,male
+/c/en/old_boy,0.6465575098991394,male
 /c/en/old_man,,
 /c/en/one_of_the_boys,,
 /c/en/orangeman,,
@@ -377,7 +377,7 @@ word,bias,group
 /c/en/plowman,,
 /c/en/point_man,,
 /c/en/pointsman,,
-/c/en/policeman,0.031163489446043968,male
+/c/en/policeman,0.029044535011053085,male
 /c/en/polycarp,,
 /c/en/polygynist,,
 /c/en/ponce,,
@@ -396,7 +396,7 @@ word,bias,group
 /c/en/property_man,,
 /c/en/quarryman,,
 /c/en/raftsman,,
-/c/en/raja,0.041579026728868484,male
+/c/en/raja,0.03818773478269577,male
 /c/en/rake,,
 /c/en/remittance_man,,
 /c/en/renaissance_man,,

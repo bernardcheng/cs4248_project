@@ -82,7 +82,7 @@ word,bias,group
 /c/en/church_father,,
 /c/en/city_man,,
 /c/en/clansman,,
-/c/en/clergyman,0.003762041451409459,male
+/c/en/clergyman,0.003762038191780448,male
 /c/en/cleric,,
 /c/en/closet_queen,,
 /c/en/coachman,,
@@ -109,7 +109,7 @@ word,bias,group
 /c/en/curandero,,
 /c/en/cyril,,
 /c/en/czar,,
-/c/en/dad,0.004079617094248533,male
+/c/en/dad,0.004079615231603384,male
 /c/en/dairyman,,
 /c/en/dalesman,,
 /c/en/dandy,,
@@ -204,7 +204,7 @@ word,bias,group
 /c/en/good_old_boy,,
 /c/en/grand_duke,,
 /c/en/grandee,,
-/c/en/grandfather,0.00409873528406024,male
+/c/en/grandfather,0.004098732955753803,male
 /c/en/grandson,,
 /c/en/grass_widower,,
 /c/en/great_grandfather,,
@@ -217,7 +217,7 @@ word,bias,group
 /c/en/groundsman,,
 /c/en/guardsman,,
 /c/en/gunman,,
-/c/en/guy,0.27621424198150635,male
+/c/en/guy,0.27621421217918396,male
 /c/en/handyman,,
 /c/en/hangman,,
 /c/en/hatchet_man,,
@@ -281,7 +281,7 @@ word,bias,group
 /c/en/lobsterman,,
 /c/en/longbowman,,
 /c/en/loon,,
-/c/en/lord,0.002952723065391183,male
+/c/en/lord,0.002952718175947666,male
 /c/en/lord_chancellor,,
 /c/en/lothario,,
 /c/en/lounge_lizard,,
@@ -377,12 +377,12 @@ word,bias,group
 /c/en/plowman,,
 /c/en/point_man,,
 /c/en/pointsman,,
-/c/en/policeman,0.20134137570858002,male
+/c/en/policeman,0.2013414055109024,male
 /c/en/polycarp,,
 /c/en/polygynist,,
 /c/en/ponce,,
 /c/en/ponce_de_leon,,
-/c/en/pope,0.0029124910943210125,male
+/c/en/pope,0.002912487369030714,male
 /c/en/popper,,
 /c/en/posseman,,
 /c/en/poster_boy,,
@@ -396,7 +396,7 @@ word,bias,group
 /c/en/property_man,,
 /c/en/quarryman,,
 /c/en/raftsman,,
-/c/en/raja,0.0036906057503074408,male
+/c/en/raja,0.0036906125023961067,male
 /c/en/rake,,
 /c/en/remittance_man,,
 /c/en/renaissance_man,,
@@ -443,7 +443,7 @@ word,bias,group
 /c/en/small_businessman,,
 /c/en/sod,,
 /c/en/sodomite,,
-/c/en/son,0.004062300082296133,male
+/c/en/son,0.004062298219650984,male
 /c/en/son-in-law,,
 /c/en/soul_brother,,
 /c/en/soundman,,
@@ -501,7 +501,7 @@ word,bias,group
 /c/en/vizier,,
 /c/en/warlord,,
 /c/en/washerman,,
-/c/en/watchman,0.4038427174091339,male
+/c/en/watchman,0.4038427770137787,male
 /c/en/water_boy,,
 /c/en/weatherman,,
 /c/en/welshman,,

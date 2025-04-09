@@ -604,7 +604,7 @@ word,bias,group
 /c/en/born-again_christian,,
 /c/en/bornean,,
 /c/en/borrower,,
-/c/en/boss,0.025921443477272987,neutral
+/c/en/boss,0.025921445339918137,neutral
 /c/en/bostonian,,
 /c/en/boswell,,
 /c/en/botanist,,
@@ -676,7 +676,7 @@ word,bias,group
 /c/en/business_agent,,
 /c/en/business_editor,,
 /c/en/business_traveler,,
-/c/en/businessperson,0.027006544172763824,neutral
+/c/en/businessperson,0.027006540447473526,neutral
 /c/en/busker,,
 /c/en/buster,,
 /c/en/busybody,,
@@ -893,7 +893,7 @@ word,bias,group
 /c/en/cipher,,
 /c/en/circassian,,
 /c/en/circus_acrobat,,
-/c/en/citizen,0.01971416175365448,neutral
+/c/en/citizen,0.01971415989100933,neutral
 /c/en/city_editor,,
 /c/en/city_father,,
 /c/en/city_slicker,,
@@ -914,7 +914,7 @@ word,bias,group
 /c/en/classicist,,
 /c/en/classifier,,
 /c/en/claustrophobe,,
-/c/en/cleaner,0.01971415989100933,neutral
+/c/en/cleaner,0.01971416175365448,neutral
 /c/en/clericalist,,
 /c/en/clerk,,
 /c/en/clever_dick,,
@@ -1809,7 +1809,7 @@ word,bias,group
 /c/en/french_teacher,,
 /c/en/freshman,,
 /c/en/freudian,,
-/c/en/friend,0.023706873878836632,neutral
+/c/en/friend,0.023706872016191483,neutral
 /c/en/frog,,
 /c/en/front-runner,,
 /c/en/frontbencher,,
@@ -1994,7 +1994,7 @@ word,bias,group
 /c/en/grunter,,
 /c/en/guarani,,
 /c/en/guarantor,,
-/c/en/guard,0.14536523818969727,neutral
+/c/en/guard,0.14536525309085846,neutral
 /c/en/guatemalan,,
 /c/en/guerrilla,,
 /c/en/guesser,,
@@ -2545,7 +2545,7 @@ word,bias,group
 /c/en/lay_reader,,
 /c/en/lay_witness,,
 /c/en/lazybones,,
-/c/en/leader,0.023193690925836563,neutral
+/c/en/leader,0.023193689063191414,neutral
 /c/en/leaker,,
 /c/en/learner,,
 /c/en/leaseholder,,
@@ -2830,7 +2830,7 @@ word,bias,group
 /c/en/mentor,,
 /c/en/mercenary,,
 /c/en/mercer,,
-/c/en/merchant,0.01971416175365448,neutral
+/c/en/merchant,0.01971415989100933,neutral
 /c/en/merovingian,,
 /c/en/meshuggeneh,,
 /c/en/mesoamerican,,
@@ -3202,7 +3202,7 @@ word,bias,group
 /c/en/offerer,,
 /c/en/office-bearer,,
 /c/en/officeholder,,
-/c/en/officer,0.021293550729751587,neutral
+/c/en/officer,0.021293548867106438,neutral
 /c/en/official,0.03566126525402069,neutral
 /c/en/officiant,,
 /c/en/offspring,,
@@ -3642,7 +3642,7 @@ word,bias,group
 /c/en/presentist,,
 /c/en/preservationist,,
 /c/en/preserver,,
-/c/en/president,0.04115811735391617,neutral
+/c/en/president,0.04115812107920647,neutral
 /c/en/president_of_the_united_states,,
 /c/en/presiding_officer,,
 /c/en/press_agent,,
@@ -3905,7 +3905,7 @@ word,bias,group
 /c/en/repeater,,
 /c/en/reporter,,
 /c/en/repository,,
-/c/en/representative,0.02812778204679489,neutral
+/c/en/representative,0.028127780184149742,neutral
 /c/en/reprobate,,
 /c/en/republican,,
 /c/en/rescuer,,
@@ -4028,7 +4028,7 @@ word,bias,group
 /c/en/sailor,,
 /c/en/saint,,
 /c/en/salesclerk,,
-/c/en/salesperson,0.01971416175365448,neutral
+/c/en/salesperson,0.01971415989100933,neutral
 /c/en/salian_frank,,
 /c/en/salish,,
 /c/en/saloon_keeper,,
@@ -4211,7 +4211,7 @@ word,bias,group
 /c/en/sericulturist,,
 /c/en/serjeant-at-law,,
 /c/en/serologist,,
-/c/en/servant,0.01971415989100933,neutral
+/c/en/servant,0.01971416175365448,neutral
 /c/en/server,,
 /c/en/servitor,,
 /c/en/settler,,
@@ -4245,7 +4245,7 @@ word,bias,group
 /c/en/sheller,,
 /c/en/shelver,,
 /c/en/shepherd,,
-/c/en/sheriff,0.01826656423509121,neutral
+/c/en/sheriff,0.01826656237244606,neutral
 /c/en/sherpa,,
 /c/en/shiite,,
 /c/en/shill,,
@@ -4483,7 +4483,7 @@ word,bias,group
 /c/en/splitter,,
 /c/en/spoiler,,
 /c/en/spoilsport,,
-/c/en/spokesperson,0.01971415989100933,neutral
+/c/en/spokesperson,0.01971416175365448,neutral
 /c/en/sponger,,
 /c/en/sport,,
 /c/en/sports_announcer,,
@@ -4492,7 +4492,7 @@ word,bias,group
 /c/en/sports_writer,,
 /c/en/spot-welder,,
 /c/en/spotter,,
-/c/en/spouse,0.027478359639644623,neutral
+/c/en/spouse,0.02747836336493492,neutral
 /c/en/sprawler,,
 /c/en/sprayer,,
 /c/en/spree_killer,,

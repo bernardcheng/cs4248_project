@@ -5,7 +5,7 @@ from scipy.sparse import linalg
 
 from utils.sparse_matrix_builder import build_from_conceptnet_table
 
-def build_ppmi(conceptnet_filename, ndim=128):
+def build_ppmi(conceptnet_filename, ndim=300):
     sparse_csr, index = build_from_conceptnet_table(conceptnet_filename)
     ppmi = counts_to_ppmi(sparse_csr)
     u, s, vT = linalg.svds(ppmi, ndim)

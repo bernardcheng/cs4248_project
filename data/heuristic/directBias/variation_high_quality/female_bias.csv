@@ -11,7 +11,7 @@ word,bias,group
 /c/en/au_pair_girl,,
 /c/en/aunt,,
 /c/en/authoress,,
-/c/en/aviatrix,0.005362866912037134,female
+/c/en/aviatrix,0.005122190807014704,female
 /c/en/ayah,,
 /c/en/b-girl,,
 /c/en/bacchante,,
@@ -106,7 +106,7 @@ word,bias,group
 /c/en/fairy_godmother,,
 /c/en/farm_girl,,
 /c/en/farmerette,,
-/c/en/female,0.006228663492947817,female
+/c/en/female,0.006228676065802574,female
 /c/en/female_aristocrat,,
 /c/en/female_child,,
 /c/en/female_offspring,,
@@ -359,9 +359,9 @@ word,bias,group
 /c/en/white_slave,,
 /c/en/white_woman,,
 /c/en/widow,,
-/c/en/wife,0.41631242632865906,female
-/c/en/woman,0.7009252905845642,female
-/c/en/women,0.4158446788787842,female
+/c/en/wife,0.41631150245666504,female
+/c/en/woman,0.7008981108665466,female
+/c/en/women,0.4158444106578827,female
 /c/en/wonder_woman,,
 /c/en/working_girl,,
 /c/en/yellow_woman,,

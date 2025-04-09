@@ -178,7 +178,7 @@ word,bias,group
 /c/en/jilt,,
 /c/en/kinswoman,,
 /c/en/ladies,,
-/c/en/lady,0.6693068146705627,female
+/c/en/lady,0.669306755065918,female
 /c/en/lady's_maid,,
 /c/en/ladylove,,
 /c/en/landlady,,
@@ -361,7 +361,7 @@ word,bias,group
 /c/en/widow,,
 /c/en/wife,0.026012737303972244,female
 /c/en/woman,,
-/c/en/women,0.7218262553215027,female
+/c/en/women,0.7218261957168579,female
 /c/en/wonder_woman,,
 /c/en/working_girl,,
 /c/en/yellow_woman,,

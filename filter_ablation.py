@@ -28,7 +28,7 @@ filter_chains = {
     # statistical outlier variations
     'statistical_outliers': create_statistical_outlier_filter(num_stdev=2.0),
     'statistical_outliers_conservative': create_statistical_outlier_filter(num_stdev=1.0),
-    'statistical_outliers_aggressive': create_statistical_outlier_filter(num_stdev=3.0),
+    # 'statistical_outliers_aggressive': create_statistical_outlier_filter(num_stdev=3.0),
     'statistical_outliers_top10': create_statistical_outlier_filter(num_stdev=2.0),
     'statistical_outliers_top100': create_statistical_outlier_filter(num_stdev=2.0),
     
@@ -77,18 +77,18 @@ filter_chains = {
         target_weight=0.5,
         tolerance=0.2
     ),
-    'semantic_similarity_strict': create_semantic_similarity_filter(
-        target_weight=0.5,
-        tolerance=0.1
-    ),
+    # 'semantic_similarity_strict': create_semantic_similarity_filter(
+    #     target_weight=0.5,
+    #     tolerance=0.1
+    # ),
     'semantic_similarity_lenient': create_semantic_similarity_filter(
         target_weight=0.5,
         tolerance=0.3
     ),
-    'semantic_similarity_high_weight': create_semantic_similarity_filter(
-        target_weight=0.7,
-        tolerance=0.2
-    ),
+    # 'semantic_similarity_high_weight': create_semantic_similarity_filter(
+    #     target_weight=0.7,
+    #     tolerance=0.2
+    # ),
     'semantic_similarity_low_weight': create_semantic_similarity_filter(
         target_weight=0.3,
         tolerance=0.2

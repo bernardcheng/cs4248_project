@@ -345,7 +345,7 @@ word,bias,group
 /c/en/athapaskan,,
 /c/en/atheist,,
 /c/en/athenian,,
-/c/en/athlete,0.024971172213554382,neutral
+/c/en/athlete,0.024971170350909233,neutral
 /c/en/atsugewi,,
 /c/en/attache,,
 /c/en/attacker,,
@@ -1656,7 +1656,7 @@ word,bias,group
 /c/en/fantasist,,
 /c/en/fantast,,
 /c/en/fare,,
-/c/en/farmer,0.4385739266872406,neutral
+/c/en/farmer,0.4385739862918854,neutral
 /c/en/farmhand,,
 /c/en/farrier,,
 /c/en/farsi,,
@@ -1870,7 +1870,7 @@ word,bias,group
 /c/en/gemini,,
 /c/en/gendarme,,
 /c/en/genealogist,,
-/c/en/general,0.027125738561153412,neutral
+/c/en/general,0.02712574042379856,neutral
 /c/en/general_manager,,
 /c/en/general_officer,,
 /c/en/general_practitioner,,
@@ -1994,7 +1994,7 @@ word,bias,group
 /c/en/grunter,,
 /c/en/guarani,,
 /c/en/guarantor,,
-/c/en/guard,0.04589863866567612,neutral
+/c/en/guard,0.04589865356683731,neutral
 /c/en/guatemalan,,
 /c/en/guerrilla,,
 /c/en/guesser,,
@@ -2817,7 +2817,7 @@ word,bias,group
 /c/en/melancholic,,
 /c/en/melkite,,
 /c/en/melter,,
-/c/en/member,0.030535461381077766,neutral
+/c/en/member,0.030535457655787468,neutral
 /c/en/memorizer,,
 /c/en/mendelian,,
 /c/en/mender,,
@@ -3889,7 +3889,7 @@ word,bias,group
 /c/en/regular,,
 /c/en/regulator,,
 /c/en/reincarnation,,
-/c/en/relative,0.023328421637415886,neutral
+/c/en/relative,0.023328419774770737,neutral
 /c/en/reliever,,
 /c/en/religionist,,
 /c/en/religious,,
@@ -3903,7 +3903,7 @@ word,bias,group
 /c/en/rep,,
 /c/en/repatriate,,
 /c/en/repeater,,
-/c/en/reporter,0.02097303234040737,neutral
+/c/en/reporter,0.020973030477762222,neutral
 /c/en/repository,,
 /c/en/representative,,
 /c/en/reprobate,,
@@ -4211,7 +4211,7 @@ word,bias,group
 /c/en/sericulturist,,
 /c/en/serjeant-at-law,,
 /c/en/serologist,,
-/c/en/servant,0.02149195410311222,neutral
+/c/en/servant,0.02149195596575737,neutral
 /c/en/server,,
 /c/en/servitor,,
 /c/en/settler,,
@@ -4239,7 +4239,7 @@ word,bias,group
 /c/en/shawnee,,
 /c/en/shearer,,
 /c/en/shedder,,
-/c/en/sheep,0.18163445591926575,neutral
+/c/en/sheep,0.18163447082042694,neutral
 /c/en/sheepherder,,
 /c/en/shegetz,,
 /c/en/sheller,,
@@ -4492,7 +4492,7 @@ word,bias,group
 /c/en/sports_writer,,
 /c/en/spot-welder,,
 /c/en/spotter,,
-/c/en/spouse,0.02097303420305252,neutral
+/c/en/spouse,0.02097303234040737,neutral
 /c/en/sprawler,,
 /c/en/sprayer,,
 /c/en/spree_killer,,

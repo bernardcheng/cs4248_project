@@ -177,8 +177,8 @@ word,bias,group
 /c/en/jezebel,,
 /c/en/jilt,,
 /c/en/kinswoman,,
-/c/en/ladies,0.6456153988838196,female
-/c/en/lady,0.17939117550849915,female
+/c/en/ladies,0.6456153392791748,female
+/c/en/lady,0.17939120531082153,female
 /c/en/lady's_maid,,
 /c/en/ladylove,,
 /c/en/landlady,,
@@ -359,8 +359,8 @@ word,bias,group
 /c/en/white_slave,,
 /c/en/white_woman,,
 /c/en/widow,,
-/c/en/wife,0.00433291494846344,female
-/c/en/woman,0.7068186402320862,female
+/c/en/wife,0.004332913085818291,female
+/c/en/woman,0.7068185806274414,female
 /c/en/women,0.5683120489120483,female
 /c/en/wonder_woman,,
 /c/en/working_girl,,

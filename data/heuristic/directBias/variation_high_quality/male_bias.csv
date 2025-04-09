@@ -30,7 +30,7 @@ word,bias,group
 /c/en/basileus,,
 /c/en/bass,,
 /c/en/bat_boy,,
-/c/en/batman,0.6977143287658691,male
+/c/en/batman,0.6976847648620605,male
 /c/en/beadsman,,
 /c/en/beggarman,,
 /c/en/bellboy,,
@@ -55,7 +55,7 @@ word,bias,group
 /c/en/brother,,
 /c/en/brother-in-law,,
 /c/en/brunet,,
-/c/en/buddy,0.009951389394700527,male
+/c/en/buddy,0.0099308667704463,male
 /c/en/bull,,
 /c/en/bullyboy,,
 /c/en/burgrave,,
@@ -83,7 +83,7 @@ word,bias,group
 /c/en/city_man,,
 /c/en/clansman,,
 /c/en/clergyman,,
-/c/en/cleric,0.011599810793995857,male
+/c/en/cleric,0.01156700775027275,male
 /c/en/closet_queen,,
 /c/en/coachman,,
 /c/en/coalman,,
@@ -98,7 +98,7 @@ word,bias,group
 /c/en/councilman,,
 /c/en/count,,
 /c/en/countertenor,,
-/c/en/countryman,0.014128138311207294,male
+/c/en/countryman,0.013946164399385452,male
 /c/en/cowboy,,
 /c/en/craftsman,,
 /c/en/crewman,,
@@ -156,16 +156,16 @@ word,bias,group
 /c/en/fancy_man,,
 /c/en/farm_boy,,
 /c/en/fathead,,
-/c/en/father,0.011599810793995857,male
+/c/en/father,0.01156700775027275,male
 /c/en/father_figure,,
 /c/en/father-figure,,
 /c/en/father-in-law,,
 /c/en/fauntleroy,,
 /c/en/favorite_son,,
-/c/en/fellow,0.010204635560512543,male
+/c/en/fellow,0.008757934905588627,male
 /c/en/ferryman,,
 /c/en/feudal_lord,,
-/c/en/fireman,0.0031791951041668653,male
+/c/en/fireman,0.0031631560996174812,male
 /c/en/first_baseman,,
 /c/en/fisherman,,
 /c/en/flamen,,
@@ -178,7 +178,7 @@ word,bias,group
 /c/en/four-minute_man,,
 /c/en/franklin,,
 /c/en/freedman,,
-/c/en/freeman,0.0194409117102623,male
+/c/en/freeman,0.019392963498830795,male
 /c/en/frenchman,,
 /c/en/friar,,
 /c/en/front_man,,
@@ -229,7 +229,7 @@ word,bias,group
 /c/en/helmsman,,
 /c/en/herr,,
 /c/en/him,,
-/c/en/himself,0.011173726059496403,male
+/c/en/himself,0.011183369904756546,male
 /c/en/his,,
 /c/en/hobbledehoy,,
 /c/en/holdup_man,,
@@ -299,7 +299,7 @@ word,bias,group
 /c/en/male_offspring,,
 /c/en/male_sibling,,
 /c/en/malik,,
-/c/en/man,0.7009251713752747,male
+/c/en/man,0.7008980512619019,male
 /c/en/man_jack,,
 /c/en/man_of_letters,,
 /c/en/man_of_means,,
@@ -311,7 +311,7 @@ word,bias,group
 /c/en/marquis,,
 /c/en/masseur,,
 /c/en/medicine_man,,
-/c/en/men,0.10410886257886887,male
+/c/en/men,0.10409635305404663,male
 /c/en/mesne_lord,,
 /c/en/messenger_boy,,
 /c/en/mestizo,,
@@ -400,7 +400,7 @@ word,bias,group
 /c/en/rake,,
 /c/en/remittance_man,,
 /c/en/renaissance_man,,
-/c/en/repairman,0.0038575271610170603,male
+/c/en/repairman,0.003328881226480007,male
 /c/en/rifleman,,
 /c/en/right-hand_man,,
 /c/en/roadman,,
@@ -437,7 +437,7 @@ word,bias,group
 /c/en/signor,,
 /c/en/signore,,
 /c/en/simeon,,
-/c/en/sir,0.00989917665719986,male
+/c/en/sir,0.009900604374706745,male
 /c/en/sire,,
 /c/en/sirrah,,
 /c/en/small_businessman,,

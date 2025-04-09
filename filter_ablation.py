@@ -27,113 +27,85 @@ filter_chains = {
     'baseline_strict': create_basic_weight_filter(min_weight=0.5),
     
     # statistical outlier variations
-    'statistical_outliers': create_statistical_outlier_filter(num_stdev=2.0, top_k=DEFAULT_TOP_K),
-    'statistical_outliers_conservative': create_statistical_outlier_filter(num_stdev=1.0, top_k=DEFAULT_TOP_K),
-    'statistical_outliers_aggressive': create_statistical_outlier_filter(num_stdev=3.0, top_k=DEFAULT_TOP_K),
-    'statistical_outliers_top10': create_statistical_outlier_filter(num_stdev=2.0, top_k=10),
-    'statistical_outliers_top100': create_statistical_outlier_filter(num_stdev=2.0, top_k=100),
+    'statistical_outliers': create_statistical_outlier_filter(num_stdev=2.0),
+    'statistical_outliers_conservative': create_statistical_outlier_filter(num_stdev=1.0),
+    'statistical_outliers_aggressive': create_statistical_outlier_filter(num_stdev=3.0),
+    'statistical_outliers_top10': create_statistical_outlier_filter(num_stdev=2.0),
+    'statistical_outliers_top100': create_statistical_outlier_filter(num_stdev=2.0),
     
     # relation-based filter variations
     'relation_specific': create_relation_specific_filter(
-        relations=DEFAULT_RELATIONS,
-        min_weight=DEFAULT_MIN_WEIGHT
+        relations=DEFAULT_RELATIONS
     ),
     'relation_minimal': create_relation_specific_filter(
-        relations=['/r/IsA'],
-        min_weight=DEFAULT_MIN_WEIGHT
+        relations=['/r/IsA']
     ),
     'relation_minimal_synonyms': create_relation_specific_filter(
-        relations=['/r/Synonym', '/r/IsA'],
-        min_weight=DEFAULT_MIN_WEIGHT
+        relations=['/r/Synonym', '/r/IsA']
     ),
     'relation_minimal_synonyms_capabilities': create_relation_specific_filter(
-        relations=['/r/Synonym', '/r/CapableOf', '/r/IsA'],
-        min_weight=DEFAULT_MIN_WEIGHT
+        relations=['/r/Synonym', '/r/CapableOf', '/r/IsA']
     ),
     'relation_minimal_properties_synonyms_capabilities': create_relation_specific_filter(
-        relations=['/r/HasProperty', '/r/Synonym', '/r/CapableOf', '/r/IsA'],
-        min_weight=DEFAULT_MIN_WEIGHT
+        relations=['/r/HasProperty', '/r/Synonym', '/r/CapableOf', '/r/IsA']
     ),
     
     # dropping relation types
     'remove_relation_type_relatedto': create_remove_relation_type_filter(
-        relations=['/r/RelatedTo'],
-        min_weight=DEFAULT_MIN_WEIGHT,
-        top_k=DEFAULT_TOP_K
+        relations=['/r/RelatedTo']
     ),
     'remove_relation_type_relatedto_synonym': create_remove_relation_type_filter(
-        relations=['/r/RelatedTo', '/r/Synonym'],
-        min_weight=DEFAULT_MIN_WEIGHT,
-        top_k=DEFAULT_TOP_K
+        relations=['/r/RelatedTo', '/r/Synonym']
     ),
     'remove_relation_type_relatedto_synonym_isa': create_remove_relation_type_filter(
-        relations=['/r/RelatedTo', '/r/Synonym', '/r/IsA'],
-        min_weight=DEFAULT_MIN_WEIGHT,
-        top_k=DEFAULT_TOP_K
+        relations=['/r/RelatedTo', '/r/Synonym', '/r/IsA']
     ),
     'remove_relation_type_relatedto_synonym_isa_hasproperty': create_remove_relation_type_filter(
-        relations=['/r/RelatedTo', '/r/Synonym', '/r/IsA', '/r/HasProperty'],
-        min_weight=DEFAULT_MIN_WEIGHT,
-        top_k=DEFAULT_TOP_K
+        relations=['/r/RelatedTo', '/r/Synonym', '/r/IsA', '/r/HasProperty']
     ),
     'remove_relation_type_relatedto_synonym_isa_hasproperty_capableof': create_remove_relation_type_filter(
-        relations=['/r/RelatedTo', '/r/Synonym', '/r/IsA', '/r/HasProperty', '/r/CapableOf'],
-        min_weight=DEFAULT_MIN_WEIGHT,
-        top_k=DEFAULT_TOP_K
+        relations=['/r/RelatedTo', '/r/Synonym', '/r/IsA', '/r/HasProperty', '/r/CapableOf']
     ),
     'remove_relation_type_relatedto_synonym_isa_hasproperty_capableof_derivedfrom': create_remove_relation_type_filter(
-        relations=['/r/RelatedTo', '/r/Synonym', '/r/IsA', '/r/HasProperty', '/r/CapableOf', '/r/DerivedFrom'],
-        min_weight=DEFAULT_MIN_WEIGHT,
-        top_k=DEFAULT_TOP_K
+        relations=['/r/RelatedTo', '/r/Synonym', '/r/IsA', '/r/HasProperty', '/r/CapableOf', '/r/DerivedFrom']
     ),
     
     # dataset quality variations
-    'high_quality': create_high_quality_filter(top_k=DEFAULT_TOP_K),
-    'high_quality_selective': create_high_quality_filter(top_k=25),
-    'high_quality_broad': create_high_quality_filter(top_k=100),
+    'high_quality': create_high_quality_filter(),
     
     # dataset source variations
     'dataset_specific': create_dataset_specific_filter(
-        datasets=DEFAULT_DATASETS,
-        top_k=DEFAULT_TOP_K
+        datasets=DEFAULT_DATASETS
     ),
     'dataset_wiktionary_only': create_dataset_specific_filter(
-        datasets=['/d/wiktionary/en'],
-        top_k=DEFAULT_TOP_K
+        datasets=['/d/wiktionary/en']
     ),
     'dataset_wordnet_only': create_dataset_specific_filter(
-        datasets=['/d/wordnet/3.1'],
-        top_k=DEFAULT_TOP_K
+        datasets=['/d/wordnet/3.1']
     ),
     'dataset_wiktionary_wordnet': create_dataset_specific_filter(
-        datasets=['/d/wiktionary/en', '/d/wordnet/3.1'],
-        top_k=DEFAULT_TOP_K
+        datasets=['/d/wiktionary/en', '/d/wordnet/3.1']
     ),
     
     # semantic similarity variations
     'semantic_similarity': create_semantic_similarity_filter(
         target_weight=0.5,
-        languages=DEFAULT_LANGUAGES,
         tolerance=0.2
     ),
     'semantic_similarity_strict': create_semantic_similarity_filter(
         target_weight=0.5,
-        languages=DEFAULT_LANGUAGES,
         tolerance=0.1
     ),
     'semantic_similarity_lenient': create_semantic_similarity_filter(
         target_weight=0.5,
-        languages=DEFAULT_LANGUAGES,
         tolerance=0.3
     ),
     'semantic_similarity_high_weight': create_semantic_similarity_filter(
         target_weight=0.7,
-        languages=DEFAULT_LANGUAGES,
         tolerance=0.2
     ),
     'semantic_similarity_low_weight': create_semantic_similarity_filter(
         target_weight=0.3,
-        languages=DEFAULT_LANGUAGES,
         tolerance=0.2
     ),
     
@@ -142,36 +114,31 @@ filter_chains = {
         languages=DEFAULT_LANGUAGES,
         relations=DEFAULT_RELATIONS,
         datasets=DEFAULT_DATASETS,
-        min_weight=DEFAULT_MIN_WEIGHT,
-        top_k=DEFAULT_TOP_K
+        min_weight=DEFAULT_MIN_WEIGHT
     ),
     'comprehensive_strict': create_comprehensive_filter(
         languages=DEFAULT_LANGUAGES,
         relations=DEFAULT_RELATIONS,
         datasets=DEFAULT_DATASETS,
-        min_weight=0.5,
-        top_k=25
+        min_weight=0.5
     ),
     'comprehensive_lenient': create_comprehensive_filter(
         languages=DEFAULT_LANGUAGES,
         relations=DEFAULT_RELATIONS + ['/r/DerivedFrom'],
         datasets=DEFAULT_DATASETS,
-        min_weight=0.2,
-        top_k=100
+        min_weight=0.2
     ),
     'comprehensive_high_quality': create_comprehensive_filter(
         languages=DEFAULT_LANGUAGES,
         relations=DEFAULT_RELATIONS,
         datasets=DEFAULT_DATASETS,
-        min_weight=0.5,
-        top_k=50
+        min_weight=0.5
     ),
     'comprehensive_high_quality_strict': create_comprehensive_filter(
         languages=DEFAULT_LANGUAGES,
         relations=DEFAULT_RELATIONS,
         datasets=DEFAULT_DATASETS,
-        min_weight=0.7,
-        top_k=25
+        min_weight=0.7
     ),
 }
 

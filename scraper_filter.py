@@ -59,13 +59,6 @@ class EndNodeFilter(Filter):
     def __call__(self, edges: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         return [edge for edge in edges if self.predicate(edge['end'])]
 
-class TopKFilter(Filter):
-    def __init__(self, k: int):
-        self.k = k
-    
-    def __call__(self, edges: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        return sorted(edges, key=lambda edge: edge['weight'], reverse=True)[:self.k]
-
 class CompositeFilter(Filter):
     def __init__(self, filters: List[Filter]):
         self.filters = filters
@@ -144,11 +137,10 @@ def create_basic_weight_filter(min_weight: float = 0.3) -> CompositeFilter:
         WeightThresholdFilter(min_weight)
     ])
 
-def create_high_quality_filter(top_k: int = 100) -> CompositeFilter:
+def create_high_quality_filter() -> CompositeFilter:
     """Keep top-K weighted edges from specific datasets"""
     return CompositeFilter([
         AverageWeightFilter(),
-        TopKFilter(top_k),
         DatasetFilter([
             '/d/wiktionary/en',
             '/d/wordnet/3.1'
@@ -162,48 +154,41 @@ def create_multilingual_weighted_filter(languages: List[str], min_weight: float,
         MinMaxWeightFilter(min_weight, max_weight)
     ])
 
-def create_relation_specific_filter(relations: List[str], min_weight: float = 0.5) -> CompositeFilter:
+def create_relation_specific_filter(relations: List[str]) -> CompositeFilter:
     """Keep edges that are of specific relation types and above a weight threshold"""
     return CompositeFilter([
-        RelationTypeFilter(relations),
-        WeightThresholdFilter(min_weight)
+        RelationTypeFilter(relations)
     ])
 
-def create_dataset_specific_filter(datasets: List[str], top_k: int = 50) -> CompositeFilter:
+def create_dataset_specific_filter(datasets: List[str]) -> CompositeFilter:
     """Keep top-K weighted edges that are from specific datasets"""
     return CompositeFilter([
-        DatasetFilter(datasets),
-        AverageWeightFilter(),
-        TopKFilter(top_k)
+        DatasetFilter(datasets)
     ])
 
-def create_comprehensive_filter(languages: List[str], relations: List[str], datasets: List[str], min_weight: float = 0.5, top_k: int = 50
-) -> CompositeFilter:
+def create_comprehensive_filter(languages: List[str], relations: List[str], datasets: List[str], min_weight: float = 0.5) -> CompositeFilter:
     """Keep edges that pass multiple criteria - language, relation type, dataset, weight threshold, and top-K"""
     return CompositeFilter([
         LanguageFilter(languages),
         RelationTypeFilter(relations),
         DatasetFilter(datasets),
-        WeightThresholdFilter(min_weight),
-        TopKFilter(top_k)
+        WeightThresholdFilter(min_weight)
     ])
 
-def create_statistical_outlier_filter(num_stdev: float = 2.0, top_k: int = 50) -> CompositeFilter:
+def create_statistical_outlier_filter(num_stdev: float = 2.0) -> CompositeFilter:
     """Keep top-K edges with weights more than num_stdev standard deviations above the mean"""
     return CompositeFilter([
         StdevFilter(num_stdev=num_stdev, keep_above=True),
-        TopKFilter(top_k)
     ])
 
-def create_semantic_similarity_filter(target_weight: float,languages: List[str] = ['en'],tolerance: float = 0.2) -> CompositeFilter:
+def create_semantic_similarity_filter(target_weight: float, tolerance: float = 0.2) -> CompositeFilter:
     """Keep edges with weights similar to the target weight"""
     return CompositeFilter([
-        LanguageFilter(languages),
         FuzzyWeightFilter(target_weight=target_weight, tolerance=tolerance)
     ])
 
-def create_remove_relation_type_filter(disallowed_relations: List[str]) -> CompositeFilter:
+def create_remove_relation_type_filter(relations: List[str]) -> CompositeFilter:
     """Remove edges with specific relation types"""
     return CompositeFilter([
-        RemoveRelationTypeFilter(disallowed_relations)
+        RemoveRelationTypeFilter(relations)
     ])

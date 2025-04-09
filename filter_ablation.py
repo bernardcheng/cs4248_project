@@ -51,23 +51,23 @@ filter_chains = {
     ),
     
     # dropping relation types
-    'remove_relation_type_relatedto': create_remove_relation_type_filter(
-        relations=['/r/RelatedTo']
+    'remove_relation_type_antonym': create_remove_relation_type_filter(
+        disallowed_relations=['/r/Antonym']
     ),
-    'remove_relation_type_relatedto_synonym': create_remove_relation_type_filter(
-        relations=['/r/RelatedTo', '/r/Synonym']
+    'remove_relation_type_antonym_notdesires': create_remove_relation_type_filter(
+        disallowed_relations=['/r/Antonym', '/r/NotDesires']
     ),
-    'remove_relation_type_relatedto_synonym_isa': create_remove_relation_type_filter(
-        relations=['/r/RelatedTo', '/r/Synonym', '/r/IsA']
+    'remove_relation_type_antonym_notdesires_desires': create_remove_relation_type_filter(
+        disallowed_relations=['/r/Antonym', '/r/NotDesires', '/r/Desires']
     ),
-    'remove_relation_type_relatedto_synonym_isa_hasproperty': create_remove_relation_type_filter(
-        relations=['/r/RelatedTo', '/r/Synonym', '/r/IsA', '/r/HasProperty']
+    'remove_relation_type_antonym_notdesires_desires_obstructedby': create_remove_relation_type_filter(
+        disallowed_relations=['/r/Antonym', '/r/NotDesires', '/r/Desires', '/r/ObstructedBy']
     ),
-    'remove_relation_type_relatedto_synonym_isa_hasproperty_capableof': create_remove_relation_type_filter(
-        relations=['/r/RelatedTo', '/r/Synonym', '/r/IsA', '/r/HasProperty', '/r/CapableOf']
+    'remove_relation_type_antonym_notdesires_desires_obstructedby_mannerof': create_remove_relation_type_filter(
+        disallowed_relations=['/r/Antonym', '/r/NotDesires', '/r/Desires', '/r/ObstructedBy', '/r/MannerOf']
     ),
-    'remove_relation_type_relatedto_synonym_isa_hasproperty_capableof_derivedfrom': create_remove_relation_type_filter(
-        relations=['/r/RelatedTo', '/r/Synonym', '/r/IsA', '/r/HasProperty', '/r/CapableOf', '/r/DerivedFrom']
+    'remove_relation_type_antonym_notdesires_desires_obstructedby_mannerof_causesdesire': create_remove_relation_type_filter(
+        disallowed_relations=['/r/Antonym', '/r/NotDesires', '/r/Desires', '/r/ObstructedBy', '/r/MannerOf', '/r/CausesDesire']
     ),
     
     # dataset quality variations

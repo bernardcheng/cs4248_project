@@ -114,6 +114,7 @@ def compute_metrics(eval_pred):
 
 def main(baseline=True):
     
+    print(f"Starting {baseline}, cuda: {torch.cuda.get_device_name(torch.cuda.current_device())}")
     input_embedding_matrix, input_embedding_df = process_input_embedding("data/conceptnet_api/retrofit/retrofitted-rembert-256")
     default_embedding_matrix = get_default_model_embeddings(model=MODEL)
     new_embedding_tensor, modification_cache = modify_embedding(default_embedding_matrix, input_embedding_matrix, input_embedding_df)
@@ -122,9 +123,10 @@ def main(baseline=True):
         replace_model_embeddings(new_embedding_tensor)
 
     tokenized_train_dataset, tokenized_eval_dataset = prep_train_test_dataset()
+    print("Dataset prepared")
     training_args = TrainingArguments(
         output_dir="./results",             # Directory to save model checkpoints and logs
-        num_train_epochs=1,                 # Reduced for quick demonstration; use more epochs (e.g., 3-5) for real tasks
+        num_train_epochs=3,                 # Reduced for quick demonstration; use more epochs (e.g., 3-5) for real tasks
         per_device_train_batch_size=8,      # Adjust based on your GPU memory
         per_device_eval_batch_size=8,       # Adjust based on your GPU memory
         warmup_steps=100,                   # Number of steps for linear warmup
@@ -153,11 +155,13 @@ def main(baseline=True):
     )
 
     train_result = trainer.train()
+    print("Training completed")
 
     trainer.save_model()  # Saves the tokenizer too
     trainer.log_metrics("train", train_result.metrics)
     trainer.save_metrics("train", train_result.metrics)
     trainer.save_state()
+    print("Training data saved")
 
     # Evaluate the Final Model
     print("Evaluating the final model...")
@@ -167,7 +171,7 @@ def main(baseline=True):
     trainer.save_metrics("eval", eval_metrics)
 
     # Access the embedding layer again (use the same path as in Step 4)
-    final_embedding_layer = MODEL.embeddings.word_embeddings
+    final_embedding_layer = MODEL.rembert.embeddings.word_embeddings
 
     # Get the weights
     final_embeddings_tensor = final_embedding_layer.weight.data

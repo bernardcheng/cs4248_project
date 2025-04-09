@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+import csv
 import re
 import pandas as pd
 from scipy import sparse
@@ -72,12 +73,14 @@ def build_from_conceptnet_table(filename, orig_index=(), self_loops=True):
 
     totals = defaultdict(float)
     with open(str(filename), encoding='utf-8') as infile:        
-        next(infile) #start reading from line 2 (skip header row)
-        for line in infile:
-            end_concept, _, start_concept, _, relation, _, value_str, dataset = line.strip().split(',')
-
-            # end_concept, start_concept, value_str, dataset, relation = line.strip().split(',') # for test_reduced.csv
-
+        reader = csv.DictReader(infile)  # automatically skips header
+        for row in reader:
+            end_concept = row['end_id']
+            start_concept = row['start_id']
+            relation = row['rel_id']
+            value_str = row['weight']
+            dataset = row['dataset']
+            
             index1 = labels.add(replace_numbers(end_concept))
             index2 = labels.add(replace_numbers(start_concept))
             try:

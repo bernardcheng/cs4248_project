@@ -177,3 +177,5 @@ cython_debug/
 data/conceptnet_api/
 .DS_Store
 */.DS_Store
+logs/
+results/

@@ -109,8 +109,16 @@ Pre-requisities: Python Version: 3.11 or newer
     b) TBD
 
 ### References/Sources
-* Speer, R., Chin, J. and Havasi, C., 2017, February. Conceptnet 5.5: An open multilingual graph of general knowledge. In Proceedings of the AAAI conference on artificial intelligence (Vol. 31, No. 1).
+* [Speer, R., Chin, J. and Havasi, C., 2017, February. Conceptnet 5.5: An open multilingual graph of general knowledge. In Proceedings of the AAAI conference on artificial intelligence (Vol. 31, No. 1).](https://arxiv.org/pdf/1612.03975)
 
-* Levy, O., Goldberg, Y. and Dagan, I., 2015. Improving distributional similarity with lessons learned from word embeddings. Transactions of the association for computational linguistics, 3, pp.211-225.
+* [Levy, O., Goldberg, Y. and Dagan, I., 2015. Improving distributional similarity with lessons learned from word embeddings. Transactions of the association for computational linguistics, 3, pp.211-225.](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00134/43264/Improving-Distributional-Similarity-with-Lessons)
 
+* [Speer, R. and Chin, J., 2016. An ensemble method to produce high-quality word embeddings (2016). arXiv preprint arXiv:1604.01692.](https://arxiv.org/pdf/1604.01692)
 
+* [Speer, R. and Lowry-Duda, J., 2017. Conceptnet at semeval-2017 task 2: Extending word embeddings with multilingual relational knowledge. arXiv preprint arXiv:1704.03560.](https://arxiv.org/pdf/1704.03560)
+
+* [Faruqui, M., Dodge, J., Jauhar, S.K., Dyer, C., Hovy, E. and Smith, N.A., 2014. Retrofitting word vectors to semantic lexicons. arXiv preprint arXiv:1411.4166.](https://arxiv.org/pdf/1411.4166)
+
+* [Jentzsch, S., Schramowski, P., Rothkopf, C. and Kersting, K., 2019, January. Semantics derived automatically from language corpora contain human-like moral choices. In Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society (pp. 37-44).](https://www.aiml.informatik.tu-darmstadt.de/papers/jentzsch2019aies_moralChoiceMachine.pdf)
+
+* [Bolukbasi, T., Chang, K.W., Zou, J.Y., Saligrama, V. and Kalai, A.T., 2016. Man is to computer programmer as woman is to homemaker? debiasing word embeddings. Advances in neural information processing systems, 29.](https://proceedings.neurips.cc/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf)

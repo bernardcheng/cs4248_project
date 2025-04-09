@@ -35,7 +35,7 @@ def get_default_model_embeddings(model=MODEL) -> np.ndarray:
     default_embedding_matrix = embedding_matrix.cpu().numpy()
     return default_embedding_matrix
 
-def modify_embedding(default_embedding_matrix:np.ndarray, input_embedding_matrix:np.ndarray, input_embedding_df:pd.DataFrame) -> torch.tensor:
+def modify_embedding(default_embedding_matrix:np.ndarray, input_embedding_matrix:np.ndarray, input_embedding_df:pd.DataFrame) -> Tuple[torch.tensor, dict]:
 
     modified_words = input_embedding_df['vocab'].to_list()
 
@@ -47,6 +47,7 @@ def modify_embedding(default_embedding_matrix:np.ndarray, input_embedding_matrix
         tokens = TOKENIZER.tokenize(processed_word)
         return tokens
 
+    modification_cache = dict() # store idx and words that were modified. 
     for idx, word in enumerate(modified_words):
 
         tokens = _tokenize(word)
@@ -55,12 +56,13 @@ def modify_embedding(default_embedding_matrix:np.ndarray, input_embedding_matrix
 
             token = tokens[0]
             embedding_idx = VOCAB[token]
+            modification_cache['/c/en/' + word] = embedding_idx
             new_embedding_array = input_embedding_matrix[idx]
             default_embedding_matrix[embedding_idx] = new_embedding_array
 
     # Convert to PyTorch/TensorFlow tensor
     new_embedding_tensor = torch.tensor(default_embedding_matrix, dtype=torch.float16)
-    return new_embedding_tensor
+    return new_embedding_tensor, modification_cache
 
 def replace_model_embeddings(new_embedding_tensor:torch.tensor, model=MODEL) -> None:
 
@@ -110,11 +112,14 @@ def compute_metrics(eval_pred):
     predictions = np.argmax(logits, axis=-1)
     return METRIC.compute(predictions=predictions, references=labels)
 
-def main():
+def main(baseline=True):
+    
     input_embedding_matrix, input_embedding_df = process_input_embedding("data/conceptnet_api/retrofit/retrofitted-rembert-256")
     default_embedding_matrix = get_default_model_embeddings(model=MODEL)
-    new_embedding_tensor = modify_embedding(default_embedding_matrix, input_embedding_matrix, input_embedding_df)
-    replace_model_embeddings(new_embedding_tensor)
+    new_embedding_tensor, modification_cache = modify_embedding(default_embedding_matrix, input_embedding_matrix, input_embedding_df)
+    
+    if not baseline:
+        replace_model_embeddings(new_embedding_tensor)
 
     tokenized_train_dataset, tokenized_eval_dataset = prep_train_test_dataset()
     training_args = TrainingArguments(
@@ -160,8 +165,31 @@ def main():
     print(f"Evaluation Metrics: {eval_metrics}")
     trainer.log_metrics("eval", eval_metrics)
     trainer.save_metrics("eval", eval_metrics)
-    pass
+
+    # Access the embedding layer again (use the same path as in Step 4)
+    final_embedding_layer = MODEL.embeddings.word_embeddings
+
+    # Get the weights
+    final_embeddings_tensor = final_embedding_layer.weight.data
+
+    # Convert to NumPy if desired (and move to CPU if on GPU)
+    final_embeddings_numpy = final_embeddings_tensor.cpu().numpy()
+
+    conceptnet_finetune_embeddings = dict()
+
+    for concept, idx in modification_cache.items():
+        conceptnet_finetune_embeddings[concept] = final_embeddings_numpy[idx].tolist()
+
+    conceptnet_finetune_embeddings_df = pd.DataFrame.from_dict(conceptnet_finetune_embeddings, orient='index')
+    
+    if baseline:
+        filepath = "finetuned_embeddings.hdf"
+    else:
+        filepath = "finetuned_custom_embeddings.hdf"
+
+    conceptnet_finetune_embeddings_df.to_hdf(filepath, 'mat', encoding='utf-8')
 
 
 if __name__ == "__main__":
-    main()  
+    main(baseline=True)  
+    main(baseline=False) 

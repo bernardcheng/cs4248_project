@@ -174,7 +174,7 @@ cython_debug/
 .pypirc
 
 # Custom
-data/conceptnet_api/
+# data/conceptnet_api/
 .DS_Store
 */.DS_Store
 logs/

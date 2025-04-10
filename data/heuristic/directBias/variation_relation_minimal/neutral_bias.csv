@@ -194,7 +194,7 @@ word,bias,group
 /c/en/anathema,,
 /c/en/anatomist,,
 /c/en/ancestor,,
-/c/en/anchor,0.0010407399386167526,neutral
+/c/en/anchor,0.0010407401714473963,neutral
 /c/en/anchorite,,
 /c/en/ancient,,
 /c/en/andorran,,
@@ -756,7 +756,7 @@ word,bias,group
 /c/en/carper,,
 /c/en/carpet_knight,,
 /c/en/carpetbagger,,
-/c/en/carrier,0.0009703354444354773,neutral
+/c/en/carrier,0.0009703355608507991,neutral
 /c/en/carter,,
 /c/en/cartesian,,
 /c/en/carthaginian,,
@@ -1338,7 +1338,7 @@ word,bias,group
 /c/en/dingbat,,
 /c/en/dining-room_attendant,,
 /c/en/diocesan,,
-/c/en/diplomat,0.0008498546085320413,neutral
+/c/en/diplomat,0.0008498544339090586,neutral
 /c/en/diplomate,,
 /c/en/director,,
 /c/en/director_of_central_intelligence,,
@@ -1994,7 +1994,7 @@ word,bias,group
 /c/en/grunter,,
 /c/en/guarani,,
 /c/en/guarantor,,
-/c/en/guard,0.0010815964778885245,neutral
+/c/en/guard,0.0010815965943038464,neutral
 /c/en/guatemalan,,
 /c/en/guerrilla,,
 /c/en/guesser,,
@@ -3236,7 +3236,7 @@ word,bias,group
 /c/en/onondaga,,
 /c/en/opera_star,,
 /c/en/operagoer,,
-/c/en/operator,0.0009354047360830009,neutral
+/c/en/operator,0.0009354046196676791,neutral
 /c/en/ophthalmologist,,
 /c/en/opium_addict,,
 /c/en/opportunist,,
@@ -3566,7 +3566,7 @@ word,bias,group
 /c/en/political_dissident,,
 /c/en/political_prisoner,,
 /c/en/political_scientist,,
-/c/en/politician,0.0009101263131015003,neutral
+/c/en/politician,0.000910126487724483,neutral
 /c/en/pollster,,
 /c/en/polluter,,
 /c/en/poltroon,,
@@ -3642,7 +3642,7 @@ word,bias,group
 /c/en/presentist,,
 /c/en/preservationist,,
 /c/en/preserver,,
-/c/en/president,0.0011191179510205984,neutral
+/c/en/president,0.0011191178346052766,neutral
 /c/en/president_of_the_united_states,,
 /c/en/presiding_officer,,
 /c/en/press_agent,,
@@ -3893,7 +3893,7 @@ word,bias,group
 /c/en/reliever,,
 /c/en/religionist,,
 /c/en/religious,,
-/c/en/religious_leader,0.00139975780621171,neutral
+/c/en/religious_leader,0.0013997576897963881,neutral
 /c/en/religious_person,,
 /c/en/remover,,
 /c/en/renegade,,
@@ -4483,7 +4483,7 @@ word,bias,group
 /c/en/splitter,,
 /c/en/spoiler,,
 /c/en/spoilsport,,
-/c/en/spokesperson,0.003315507899969816,neutral
+/c/en/spokesperson,0.0033155076671391726,neutral
 /c/en/sponger,,
 /c/en/sport,0.0010806863429024816,neutral
 /c/en/sports_announcer,,
@@ -4492,7 +4492,7 @@ word,bias,group
 /c/en/sports_writer,,
 /c/en/spot-welder,,
 /c/en/spotter,,
-/c/en/spouse,0.014404005371034145,neutral
+/c/en/spouse,0.01440400443971157,neutral
 /c/en/sprawler,,
 /c/en/sprayer,,
 /c/en/spree_killer,,
@@ -4655,7 +4655,7 @@ word,bias,group
 /c/en/supermarketer,,
 /c/en/supermodel,,
 /c/en/supernumerary,,
-/c/en/supervisor,0.004398135934025049,neutral
+/c/en/supervisor,0.004398135468363762,neutral
 /c/en/supplier,,
 /c/en/supply_officer,,
 /c/en/supporter,,

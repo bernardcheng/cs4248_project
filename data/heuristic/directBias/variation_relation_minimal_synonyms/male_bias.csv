@@ -55,7 +55,7 @@ word,bias,group
 /c/en/brother,,
 /c/en/brother-in-law,,
 /c/en/brunet,,
-/c/en/buddy,0.002061055973172188,male
+/c/en/buddy,0.002061057835817337,male
 /c/en/bull,,
 /c/en/bullyboy,,
 /c/en/burgrave,,
@@ -98,7 +98,7 @@ word,bias,group
 /c/en/councilman,,
 /c/en/count,,
 /c/en/countertenor,,
-/c/en/countryman,0.00570587208494544,male
+/c/en/countryman,0.005705872550606728,male
 /c/en/cowboy,,
 /c/en/craftsman,,
 /c/en/crewman,,
@@ -118,7 +118,7 @@ word,bias,group
 /c/en/dayboy,,
 /c/en/deacon,,
 /c/en/deadbeat_dad,,
-/c/en/dean,0.0018566411454230547,male
+/c/en/dean,0.0018566410290077329,male
 /c/en/deliveryman,,
 /c/en/dirty_old_man,,
 /c/en/dog,,
@@ -126,7 +126,7 @@ word,bias,group
 /c/en/domestic_prelate,,
 /c/en/don,,
 /c/en/don_juan,,
-/c/en/doorkeeper,0.0016267624450847507,male
+/c/en/doorkeeper,0.0016267625615000725,male
 /c/en/doughboy,,
 /c/en/draftsman,,
 /c/en/dragoman,,
@@ -167,7 +167,7 @@ word,bias,group
 /c/en/feudal_lord,,
 /c/en/fireman,0.0019002155167981982,male
 /c/en/first_baseman,,
-/c/en/fisherman,0.0017875389894470572,male
+/c/en/fisherman,0.0017875388730317354,male
 /c/en/flamen,,
 /c/en/footman,,
 /c/en/forefather,,
@@ -236,7 +236,7 @@ word,bias,group
 /c/en/holy_roman_emperor,,
 /c/en/homeboy,,
 /c/en/hooray_henry,,
-/c/en/horseman,0.0020021889358758926,male
+/c/en/horseman,0.002002188703045249,male
 /c/en/housefather,,
 /c/en/husband,0.019648082554340363,male
 /c/en/iceman,,
@@ -299,7 +299,7 @@ word,bias,group
 /c/en/male_offspring,,
 /c/en/male_sibling,,
 /c/en/malik,,
-/c/en/man,0.6997225284576416,male
+/c/en/man,0.6997224688529968,male
 /c/en/man_jack,,
 /c/en/man_of_letters,,
 /c/en/man_of_means,,
@@ -382,7 +382,7 @@ word,bias,group
 /c/en/polygynist,,
 /c/en/ponce,,
 /c/en/ponce_de_leon,,
-/c/en/pope,0.0012622716603800654,male
+/c/en/pope,0.0012622678186744452,male
 /c/en/popper,,
 /c/en/posseman,,
 /c/en/poster_boy,,
@@ -396,7 +396,7 @@ word,bias,group
 /c/en/property_man,,
 /c/en/quarryman,,
 /c/en/raftsman,,
-/c/en/raja,1.7859399576991564e-06,male
+/c/en/raja,1.786192910913087e-06,male
 /c/en/rake,,
 /c/en/remittance_man,,
 /c/en/renaissance_man,,
@@ -447,7 +447,7 @@ word,bias,group
 /c/en/son-in-law,,
 /c/en/soul_brother,,
 /c/en/soundman,,
-/c/en/spokesman,0.003697617445141077,male
+/c/en/spokesman,0.0036976172123104334,male
 /c/en/sporting_man,,
 /c/en/squaw_man,,
 /c/en/squire,,

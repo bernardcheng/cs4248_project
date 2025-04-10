@@ -61,7 +61,7 @@ word,bias,group
 /c/en/burgrave,,
 /c/en/busboy,,
 /c/en/bushman,,
-/c/en/businessman,0.0011673216940835118,male
+/c/en/businessman,0.00116732157766819,male
 /c/en/butler,0.3541349768638611,male
 /c/en/cabin_boy,,
 /c/en/cameraman,,
@@ -165,7 +165,7 @@ word,bias,group
 /c/en/fellow,,
 /c/en/ferryman,,
 /c/en/feudal_lord,,
-/c/en/fireman,0.001143153989687562,male
+/c/en/fireman,0.0011431548045948148,male
 /c/en/first_baseman,,
 /c/en/fisherman,,
 /c/en/flamen,,
@@ -382,7 +382,7 @@ word,bias,group
 /c/en/polygynist,,
 /c/en/ponce,,
 /c/en/ponce_de_leon,,
-/c/en/pope,0.0010566437849774957,male
+/c/en/pope,0.0010566443670541048,male
 /c/en/popper,,
 /c/en/posseman,,
 /c/en/poster_boy,,
@@ -396,7 +396,7 @@ word,bias,group
 /c/en/property_man,,
 /c/en/quarryman,,
 /c/en/raftsman,,
-/c/en/raja,8.246300239989068e-06,male
+/c/en/raja,8.246302968473174e-06,male
 /c/en/rake,,
 /c/en/remittance_man,,
 /c/en/renaissance_man,,

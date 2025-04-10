@@ -156,7 +156,7 @@ word,bias,group
 /c/en/fancy_man,,
 /c/en/farm_boy,,
 /c/en/fathead,,
-/c/en/father,0.6656293869018555,male
+/c/en/father,0.6656293272972107,male
 /c/en/father_figure,,
 /c/en/father-figure,,
 /c/en/father-in-law,,
@@ -165,7 +165,7 @@ word,bias,group
 /c/en/fellow,0.6656209826469421,male
 /c/en/ferryman,,
 /c/en/feudal_lord,,
-/c/en/fireman,0.006073154974728823,male
+/c/en/fireman,0.00607315544039011,male
 /c/en/first_baseman,,
 /c/en/fisherman,,
 /c/en/flamen,,
@@ -292,7 +292,7 @@ word,bias,group
 /c/en/mafioso,,
 /c/en/maharaja,,
 /c/en/mailman,,
-/c/en/male,0.056164756417274475,male
+/c/en/male,0.05616475269198418,male
 /c/en/male_aristocrat,,
 /c/en/male_chauvinist,,
 /c/en/male_child,,
@@ -311,7 +311,7 @@ word,bias,group
 /c/en/marquis,,
 /c/en/masseur,,
 /c/en/medicine_man,,
-/c/en/men,0.07382131367921829,male
+/c/en/men,0.0738213062286377,male
 /c/en/mesne_lord,,
 /c/en/messenger_boy,,
 /c/en/mestizo,,
@@ -389,7 +389,7 @@ word,bias,group
 /c/en/potboy,,
 /c/en/poultryman,,
 /c/en/praetor,,
-/c/en/priest,0.002922679064795375,male
+/c/en/priest,0.002922678831964731,male
 /c/en/prince_of_wales,,
 /c/en/princeling,,
 /c/en/proconsul,,
@@ -400,7 +400,7 @@ word,bias,group
 /c/en/rake,,
 /c/en/remittance_man,,
 /c/en/renaissance_man,,
-/c/en/repairman,0.004818635061383247,male
+/c/en/repairman,0.004818665329366922,male
 /c/en/rifleman,,
 /c/en/right-hand_man,,
 /c/en/roadman,,
@@ -477,7 +477,7 @@ word,bias,group
 /c/en/third_baseman,,
 /c/en/timberman,,
 /c/en/tom,,
-/c/en/town,0.0030022452119737864,male
+/c/en/town,0.0029181193094700575,male
 /c/en/townee,,
 /c/en/townes,,
 /c/en/townsman,,

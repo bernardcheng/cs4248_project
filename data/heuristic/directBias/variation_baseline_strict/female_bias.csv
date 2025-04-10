@@ -41,7 +41,7 @@ word,bias,group
 /c/en/bridesmaid,,
 /c/en/broad,0.7190272212028503,female
 /c/en/brownie,,
-/c/en/businesswoman,0.005130187142640352,female
+/c/en/businesswoman,0.005130186211317778,female
 /c/en/butch,,
 /c/en/call_girl,,
 /c/en/campfire_girl,,
@@ -165,7 +165,7 @@ word,bias,group
 /c/en/horsewoman,,
 /c/en/hostess,,
 /c/en/housemother,,
-/c/en/housewife,0.005360158160328865,female
+/c/en/housewife,0.005360157694667578,female
 /c/en/huntress,,
 /c/en/idolatress,,
 /c/en/inamorata,,
@@ -214,10 +214,10 @@ word,bias,group
 /c/en/milady,,
 /c/en/mill-girl,,
 /c/en/millionairess,,
-/c/en/miss,0.7190209031105042,female
+/c/en/miss,0.7190208435058594,female
 /c/en/missus,,
 /c/en/mistress,,
-/c/en/mother,0.5648494958877563,female
+/c/en/mother,0.5648495554924011,female
 /c/en/mother_figure,,
 /c/en/mother_hen,,
 /c/en/mother-in-law,,
@@ -349,7 +349,7 @@ word,bias,group
 /c/en/virago,,
 /c/en/viscountess,,
 /c/en/wac,,
-/c/en/waitress,0.00491988705471158,female
+/c/en/waitress,0.004919887520372868,female
 /c/en/wanton,,
 /c/en/war_bride,,
 /c/en/war_widow,,

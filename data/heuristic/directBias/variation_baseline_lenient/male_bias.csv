@@ -55,13 +55,13 @@ word,bias,group
 /c/en/brother,0.18008729815483093,male
 /c/en/brother-in-law,,
 /c/en/brunet,,
-/c/en/buddy,0.018318312242627144,male
+/c/en/buddy,0.018318310379981995,male
 /c/en/bull,,
 /c/en/bullyboy,,
 /c/en/burgrave,,
 /c/en/busboy,,
 /c/en/bushman,,
-/c/en/businessman,0.004347946960479021,male
+/c/en/businessman,0.004347944166511297,male
 /c/en/butler,0.03711981326341629,male
 /c/en/cabin_boy,,
 /c/en/cameraman,,
@@ -118,7 +118,7 @@ word,bias,group
 /c/en/dayboy,,
 /c/en/deacon,,
 /c/en/deadbeat_dad,,
-/c/en/dean,0.0038801399059593678,male
+/c/en/dean,0.0038801401387900114,male
 /c/en/deliveryman,,
 /c/en/dirty_old_man,,
 /c/en/dog,0.0021647196263074875,male
@@ -167,7 +167,7 @@ word,bias,group
 /c/en/feudal_lord,,
 /c/en/fireman,0.004401897545903921,male
 /c/en/first_baseman,,
-/c/en/fisherman,0.0038552596233785152,male
+/c/en/fisherman,0.0038552614860236645,male
 /c/en/flamen,,
 /c/en/footman,,
 /c/en/forefather,,
@@ -204,8 +204,8 @@ word,bias,group
 /c/en/good_old_boy,,
 /c/en/grand_duke,,
 /c/en/grandee,,
-/c/en/grandfather,0.0028706418816000223,male
-/c/en/grandson,0.0028609451837837696,male
+/c/en/grandfather,0.0028706430457532406,male
+/c/en/grandson,0.0028609454166144133,male
 /c/en/grass_widower,,
 /c/en/great_grandfather,,
 /c/en/great_grandson,,
@@ -230,7 +230,7 @@ word,bias,group
 /c/en/herr,,
 /c/en/him,,
 /c/en/himself,0.00351925753057003,male
-/c/en/his,0.035425979644060135,male
+/c/en/his,0.035425975918769836,male
 /c/en/hobbledehoy,,
 /c/en/holdup_man,,
 /c/en/holy_roman_emperor,,
@@ -292,7 +292,7 @@ word,bias,group
 /c/en/mafioso,,
 /c/en/maharaja,,
 /c/en/mailman,,
-/c/en/male,0.0908893346786499,male
+/c/en/male,0.0908893272280693,male
 /c/en/male_aristocrat,,
 /c/en/male_chauvinist,,
 /c/en/male_child,,
@@ -306,7 +306,7 @@ word,bias,group
 /c/en/man-at-arms,,
 /c/en/manservant,0.7184337377548218,male
 /c/en/margrave,,
-/c/en/marksman,0.003982527647167444,male
+/c/en/marksman,0.0039825281128287315,male
 /c/en/marquess,,
 /c/en/marquis,,
 /c/en/masseur,,
@@ -401,7 +401,7 @@ word,bias,group
 /c/en/remittance_man,,
 /c/en/renaissance_man,,
 /c/en/repairman,0.004917244892567396,male
-/c/en/rifleman,0.0035217057447880507,male
+/c/en/rifleman,0.0035217031836509705,male
 /c/en/right-hand_man,,
 /c/en/roadman,,
 /c/en/roman,,
@@ -437,7 +437,7 @@ word,bias,group
 /c/en/signor,,
 /c/en/signore,,
 /c/en/simeon,,
-/c/en/sir,0.022472409531474113,male
+/c/en/sir,0.022472411394119263,male
 /c/en/sire,,
 /c/en/sirrah,,
 /c/en/small_businessman,,
@@ -447,7 +447,7 @@ word,bias,group
 /c/en/son-in-law,,
 /c/en/soul_brother,,
 /c/en/soundman,,
-/c/en/spokesman,0.004471473395824432,male
+/c/en/spokesman,0.004471470136195421,male
 /c/en/sporting_man,,
 /c/en/squaw_man,,
 /c/en/squire,,
@@ -466,7 +466,7 @@ word,bias,group
 /c/en/subdeacon,,
 /c/en/sugar_daddy,,
 /c/en/suitor,,
-/c/en/sultan,0.017407923936843872,male
+/c/en/sultan,0.017407922074198723,male
 /c/en/sumo_wrestler,,
 /c/en/swagman,,
 /c/en/t-man,,
@@ -492,7 +492,7 @@ word,bias,group
 /c/en/uxoricide,,
 /c/en/vaquero,,
 /c/en/vestryman,,
-/c/en/vicar,0.012058782391250134,male
+/c/en/vicar,0.012058783322572708,male
 /c/en/vicar_apostolic,,
 /c/en/vicar-general,,
 /c/en/vice_chairman,,

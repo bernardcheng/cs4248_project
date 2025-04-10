@@ -82,7 +82,7 @@ word,bias,group
 /c/en/church_father,,
 /c/en/city_man,,
 /c/en/clansman,,
-/c/en/clergyman,0.02392767183482647,male
+/c/en/clergyman,0.02392767369747162,male
 /c/en/cleric,0.02243122272193432,male
 /c/en/closet_queen,,
 /c/en/coachman,,
@@ -96,7 +96,7 @@ word,bias,group
 /c/en/congressman,,
 /c/en/cornishman,,
 /c/en/councilman,,
-/c/en/count,0.018204523250460625,male
+/c/en/count,0.018204521387815475,male
 /c/en/countertenor,,
 /c/en/countryman,0.035612598061561584,male
 /c/en/cowboy,,
@@ -118,7 +118,7 @@ word,bias,group
 /c/en/dayboy,,
 /c/en/deacon,,
 /c/en/deadbeat_dad,,
-/c/en/dean,0.012651927769184113,male
+/c/en/dean,0.012651928700506687,male
 /c/en/deliveryman,,
 /c/en/dirty_old_man,,
 /c/en/dog,,
@@ -126,7 +126,7 @@ word,bias,group
 /c/en/domestic_prelate,,
 /c/en/don,,
 /c/en/don_juan,,
-/c/en/doorkeeper,0.01159956306219101,male
+/c/en/doorkeeper,0.011599562130868435,male
 /c/en/doughboy,,
 /c/en/draftsman,,
 /c/en/dragoman,,
@@ -156,7 +156,7 @@ word,bias,group
 /c/en/fancy_man,,
 /c/en/farm_boy,,
 /c/en/fathead,,
-/c/en/father,0.6503782868385315,male
+/c/en/father,0.6503783464431763,male
 /c/en/father_figure,,
 /c/en/father-figure,,
 /c/en/father-in-law,,
@@ -205,7 +205,7 @@ word,bias,group
 /c/en/grand_duke,,
 /c/en/grandee,,
 /c/en/grandfather,0.010895784944295883,male
-/c/en/grandson,0.01086274441331625,male
+/c/en/grandson,0.010862745344638824,male
 /c/en/grass_widower,,
 /c/en/great_grandfather,,
 /c/en/great_grandson,,
@@ -221,7 +221,7 @@ word,bias,group
 /c/en/handyman,,
 /c/en/hangman,,
 /c/en/hatchet_man,,
-/c/en/he,0.7176660895347595,male
+/c/en/he,0.71766597032547,male
 /c/en/head_linesman,,
 /c/en/headman,,
 /c/en/headsman,,
@@ -338,7 +338,7 @@ word,bias,group
 /c/en/mullah,,
 /c/en/muscleman,,
 /c/en/nabob,,
-/c/en/nephew,0.01086274441331625,male
+/c/en/nephew,0.010862745344638824,male
 /c/en/night_watchman,,
 /c/en/novillero,,
 /c/en/nuncio,,
@@ -400,7 +400,7 @@ word,bias,group
 /c/en/rake,,
 /c/en/remittance_man,,
 /c/en/renaissance_man,,
-/c/en/repairman,0.010543053969740868,male
+/c/en/repairman,0.010543057695031166,male
 /c/en/rifleman,0.012059376575052738,male
 /c/en/right-hand_man,,
 /c/en/roadman,,
@@ -447,7 +447,7 @@ word,bias,group
 /c/en/son-in-law,,
 /c/en/soul_brother,,
 /c/en/soundman,,
-/c/en/spokesman,0.014603700488805771,male
+/c/en/spokesman,0.014603701420128345,male
 /c/en/sporting_man,,
 /c/en/squaw_man,,
 /c/en/squire,,

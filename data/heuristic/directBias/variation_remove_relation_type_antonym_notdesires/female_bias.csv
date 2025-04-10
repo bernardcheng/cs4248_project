@@ -16,7 +16,7 @@ word,bias,group
 /c/en/b-girl,,
 /c/en/bacchante,,
 /c/en/bachelor_girl,,
-/c/en/bag,0.4916476309299469,female
+/c/en/bag,0.4916476607322693,female
 /c/en/bag_lady,,
 /c/en/baggage,,
 /c/en/ball-buster,,
@@ -106,7 +106,7 @@ word,bias,group
 /c/en/fairy_godmother,,
 /c/en/farm_girl,,
 /c/en/farmerette,,
-/c/en/female,0.3123147785663605,female
+/c/en/female,0.3123147487640381,female
 /c/en/female_aristocrat,,
 /c/en/female_child,,
 /c/en/female_offspring,,
@@ -177,7 +177,7 @@ word,bias,group
 /c/en/jezebel,,
 /c/en/jilt,,
 /c/en/kinswoman,,
-/c/en/ladies,0.022087205201387405,female
+/c/en/ladies,0.022087208926677704,female
 /c/en/lady,0.7175263166427612,female
 /c/en/lady's_maid,,
 /c/en/ladylove,,
@@ -214,7 +214,7 @@ word,bias,group
 /c/en/milady,,
 /c/en/mill-girl,,
 /c/en/millionairess,,
-/c/en/miss,0.7200886607170105,female
+/c/en/miss,0.7200886011123657,female
 /c/en/missus,,
 /c/en/mistress,,
 /c/en/mother,0.560764729976654,female

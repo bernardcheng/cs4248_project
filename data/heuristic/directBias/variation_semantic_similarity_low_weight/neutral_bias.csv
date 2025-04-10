@@ -379,7 +379,7 @@ word,bias,group
 /c/en/azerbaijani,,
 /c/en/aztec,,
 /c/en/baas,,
-/c/en/baby,0.31579679250717163,neutral
+/c/en/baby,0.31579676270484924,neutral
 /c/en/baby_boomer,,
 /c/en/baby_buster,,
 /c/en/baby_doctor,,
@@ -731,13 +731,13 @@ word,bias,group
 /c/en/capetian,,
 /c/en/capitalist,,
 /c/en/capricorn,,
-/c/en/captain,0.03051108308136463,neutral
+/c/en/captain,0.03051108494400978,neutral
 /c/en/captive,,
 /c/en/captor,,
 /c/en/carbineer,,
 /c/en/card_player,,
 /c/en/cardholder,,
-/c/en/cardinal,0.008086333982646465,neutral
+/c/en/cardinal,0.008086332120001316,neutral
 /c/en/cardiologist,,
 /c/en/cardsharp,,
 /c/en/careerist,,
@@ -818,7 +818,7 @@ word,bias,group
 /c/en/character_actor,,
 /c/en/character_witness,,
 /c/en/charcoal_burner,,
-/c/en/charge,0.21788345277309418,neutral
+/c/en/charge,0.21788346767425537,neutral
 /c/en/charge_d'affaires,,
 /c/en/charge_of_quarters,,
 /c/en/charioteer,,
@@ -964,7 +964,7 @@ word,bias,group
 /c/en/college_student,,
 /c/en/collegian,,
 /c/en/colombian,,
-/c/en/colonel,0.027562186121940613,neutral
+/c/en/colonel,0.02756218984723091,neutral
 /c/en/colonel_blimp,,
 /c/en/colonial,,
 /c/en/colonialist,,
@@ -1109,7 +1109,7 @@ word,bias,group
 /c/en/corporal,,
 /c/en/corporate_executive,,
 /c/en/corporatist,,
-/c/en/correspondent,0.02384193241596222,neutral
+/c/en/correspondent,0.02384193055331707,neutral
 /c/en/corsair,,
 /c/en/cosigner,,
 /c/en/cosmetic_surgeon,,
@@ -1338,7 +1338,7 @@ word,bias,group
 /c/en/dingbat,,
 /c/en/dining-room_attendant,,
 /c/en/diocesan,,
-/c/en/diplomat,0.005300863180309534,neutral
+/c/en/diplomat,0.005300864111632109,neutral
 /c/en/diplomate,,
 /c/en/director,,
 /c/en/director_of_central_intelligence,,
@@ -1403,7 +1403,7 @@ word,bias,group
 /c/en/down-and-out,,
 /c/en/draft_dodger,,
 /c/en/draftee,,
-/c/en/drafter,0.01890251599252224,neutral
+/c/en/drafter,0.01890251412987709,neutral
 /c/en/dragoon,,
 /c/en/drama_critic,,
 /c/en/dramatist,,
@@ -1421,7 +1421,7 @@ word,bias,group
 /c/en/drill_master,,
 /c/en/drinker,,
 /c/en/driveller,,
-/c/en/driver,0.026875821873545647,neutral
+/c/en/driver,0.026875823736190796,neutral
 /c/en/dropkicker,,
 /c/en/dropout,,
 /c/en/drudge,,
@@ -1606,7 +1606,7 @@ word,bias,group
 /c/en/excogitator,,
 /c/en/executant,,
 /c/en/executioner,,
-/c/en/executive,0.006553098559379578,neutral
+/c/en/executive,0.006553099025040865,neutral
 /c/en/executive_officer,,
 /c/en/executive_secretary,,
 /c/en/executive_vice_president,,
@@ -1650,7 +1650,7 @@ word,bias,group
 /c/en/familiar,,
 /c/en/family_doctor,,
 /c/en/famulus,,
-/c/en/fan,0.06734950095415115,neutral
+/c/en/fan,0.06734950840473175,neutral
 /c/en/fanatic,,
 /c/en/fancier,,
 /c/en/fantasist,,
@@ -1734,7 +1734,7 @@ word,bias,group
 /c/en/flatterer,,
 /c/en/fleet_admiral,,
 /c/en/fleming,,
-/c/en/flier,0.028186414390802383,neutral
+/c/en/flier,0.028186412528157234,neutral
 /c/en/flight_engineer,,
 /c/en/flight_surgeon,,
 /c/en/floater,,
@@ -1870,7 +1870,7 @@ word,bias,group
 /c/en/gemini,,
 /c/en/gendarme,,
 /c/en/genealogist,,
-/c/en/general,0.008027583360671997,neutral
+/c/en/general,0.008027584291994572,neutral
 /c/en/general_manager,,
 /c/en/general_officer,,
 /c/en/general_practitioner,,
@@ -1994,14 +1994,14 @@ word,bias,group
 /c/en/grunter,,
 /c/en/guarani,,
 /c/en/guarantor,,
-/c/en/guard,0.10304109752178192,neutral
+/c/en/guard,0.10304110497236252,neutral
 /c/en/guatemalan,,
 /c/en/guerrilla,,
 /c/en/guesser,,
 /c/en/guest,,
 /c/en/guest_of_honor,,
 /c/en/guest_worker,,
-/c/en/guide,0.21666499972343445,neutral
+/c/en/guide,0.21666501462459564,neutral
 /c/en/guinean,,
 /c/en/guitarist,,
 /c/en/gujarati,,
@@ -2066,7 +2066,7 @@ word,bias,group
 /c/en/havasupai,,
 /c/en/hawaiian,,
 /c/en/hawk,,
-/c/en/head,0.16199997067451477,neutral
+/c/en/head,0.16199995577335358,neutral
 /c/en/head_nurse,,
 /c/en/head_of_household,,
 /c/en/head_of_state,,
@@ -2095,7 +2095,7 @@ word,bias,group
 /c/en/hell-kite,,
 /c/en/hellhound,,
 /c/en/hellion,,
-/c/en/helpmate,0.048736680299043655,neutral
+/c/en/helpmate,0.04873667657375336,neutral
 /c/en/hematologist,,
 /c/en/hemiplegic,,
 /c/en/hemophiliac,,
@@ -2169,7 +2169,7 @@ word,bias,group
 /c/en/hood,,
 /c/en/hoodoo,,
 /c/en/hoofer,,
-/c/en/hope,0.04037873446941376,neutral
+/c/en/hope,0.040378738194704056,neutral
 /c/en/hoper,,
 /c/en/hopi,,
 /c/en/hopper,,
@@ -2214,7 +2214,7 @@ word,bias,group
 /c/en/hunk,,
 /c/en/hunkpapa,,
 /c/en/hunted_person,,
-/c/en/hunter,0.021772339940071106,neutral
+/c/en/hunter,0.021772341802716255,neutral
 /c/en/hunter-gatherer,,
 /c/en/hunting_guide,,
 /c/en/hupa,,
@@ -2263,7 +2263,7 @@ word,bias,group
 /c/en/imperialist,,
 /c/en/impersonator,,
 /c/en/import,,
-/c/en/important_person,0.022037480026483536,neutral
+/c/en/important_person,0.022037478163838387,neutral
 /c/en/importer,,
 /c/en/imposter,,
 /c/en/impressionist,,
@@ -2385,7 +2385,7 @@ word,bias,group
 /c/en/jeweler,,
 /c/en/jewelry_maker,,
 /c/en/jihadist,,
-/c/en/job,0.009344731457531452,neutral
+/c/en/job,0.009344720281660557,neutral
 /c/en/job_candidate,,
 /c/en/job's_comforter,,
 /c/en/jobber,,
@@ -2398,7 +2398,7 @@ word,bias,group
 /c/en/jordanian,,
 /c/en/journalist,,
 /c/en/judas,,
-/c/en/judge,0.02726558782160282,neutral
+/c/en/judge,0.027265585958957672,neutral
 /c/en/judge_advocate,,
 /c/en/judge_advocate_general,,
 /c/en/juggler,,
@@ -2541,7 +2541,7 @@ word,bias,group
 /c/en/law_agent,,
 /c/en/law_student,,
 /c/en/lawgiver,,
-/c/en/lawyer,0.013393660075962543,neutral
+/c/en/lawyer,0.013393658213317394,neutral
 /c/en/lay_reader,,
 /c/en/lay_witness,,
 /c/en/lazybones,,
@@ -2784,7 +2784,7 @@ word,bias,group
 /c/en/matchmaker,,
 /c/en/mate,0.044361669570207596,neutral
 /c/en/mater,,
-/c/en/material,0.04064273461699486,neutral
+/c/en/material,0.04064273089170456,neutral
 /c/en/material_witness,,
 /c/en/materialist,,
 /c/en/math_teacher,,
@@ -2797,7 +2797,7 @@ word,bias,group
 /c/en/mauritian,,
 /c/en/maverick,,
 /c/en/mayan,,
-/c/en/mayor,0.002643613377586007,neutral
+/c/en/mayor,0.0026436205953359604,neutral
 /c/en/meanie,,
 /c/en/measurer,,
 /c/en/meat_packer,,
@@ -2817,7 +2817,7 @@ word,bias,group
 /c/en/melancholic,,
 /c/en/melkite,,
 /c/en/melter,,
-/c/en/member,0.0426066517829895,neutral
+/c/en/member,0.042606648057699203,neutral
 /c/en/memorizer,,
 /c/en/mendelian,,
 /c/en/mender,,
@@ -2835,7 +2835,7 @@ word,bias,group
 /c/en/meshuggeneh,,
 /c/en/mesoamerican,,
 /c/en/mesomorph,,
-/c/en/messenger,0.020191052928566933,neutral
+/c/en/messenger,0.020191047340631485,neutral
 /c/en/messiah,,
 /c/en/messmate,,
 /c/en/metalhead,,
@@ -3249,7 +3249,7 @@ word,bias,group
 /c/en/orchestrator,,
 /c/en/ordainer,,
 /c/en/orderer,,
-/c/en/orderly,0.03790227323770523,neutral
+/c/en/orderly,0.03790227696299553,neutral
 /c/en/orderly_sergeant,,
 /c/en/ordinand,,
 /c/en/ordinary,,
@@ -3369,7 +3369,7 @@ word,bias,group
 /c/en/partygoer,,
 /c/en/pasha,,
 /c/en/passamaquody,,
-/c/en/passenger,0.03755000978708267,neutral
+/c/en/passenger,0.037550002336502075,neutral
 /c/en/passer,,
 /c/en/passerby,,
 /c/en/passive_source,,
@@ -3557,7 +3557,7 @@ word,bias,group
 /c/en/poilu,,
 /c/en/pointillist,,
 /c/en/poisoner,,
-/c/en/pole,0.03755000978708267,neutral
+/c/en/pole,0.037550002336502075,neutral
 /c/en/polemicist,,
 /c/en/police_commissioner,,
 /c/en/police_sergeant,,
@@ -3642,7 +3642,7 @@ word,bias,group
 /c/en/presentist,,
 /c/en/preservationist,,
 /c/en/preserver,,
-/c/en/president,0.060919877141714096,neutral
+/c/en/president,0.060919880867004395,neutral
 /c/en/president_of_the_united_states,,
 /c/en/presiding_officer,,
 /c/en/press_agent,,
@@ -3671,7 +3671,7 @@ word,bias,group
 /c/en/prior,,
 /c/en/prison_chaplain,,
 /c/en/prison_guard,,
-/c/en/prisoner,0.10834427922964096,neutral
+/c/en/prisoner,0.10834427177906036,neutral
 /c/en/prisoner_of_war,,
 /c/en/private,0.11632984131574631,neutral
 /c/en/private_citizen,,
@@ -3807,7 +3807,7 @@ word,bias,group
 /c/en/quintuplet,,
 /c/en/quitter,,
 /c/en/quoter,,
-/c/en/rabbi,0.05163497477769852,neutral
+/c/en/rabbi,0.051634978502988815,neutral
 /c/en/racetrack_tout,,
 /c/en/racist,,
 /c/en/racker,,
@@ -4204,14 +4204,14 @@ word,bias,group
 /c/en/septuagenarian,,
 /c/en/serbian,,
 /c/en/serf,,
-/c/en/sergeant,0.027456089854240417,neutral
+/c/en/sergeant,0.027456087991595268,neutral
 /c/en/sergeant_at_arms,,
 /c/en/sergeant_major,,
 /c/en/serial_killer,,
 /c/en/sericulturist,,
 /c/en/serjeant-at-law,,
 /c/en/serologist,,
-/c/en/servant,0.024257246404886246,neutral
+/c/en/servant,0.024257242679595947,neutral
 /c/en/server,0.02370571158826351,neutral
 /c/en/servitor,,
 /c/en/settler,0.04873429238796234,neutral
@@ -4233,7 +4233,7 @@ word,bias,group
 /c/en/shanghaier,,
 /c/en/sharecropper,,
 /c/en/shark,,
-/c/en/sharpshooter,0.021301109343767166,neutral
+/c/en/sharpshooter,0.021301111206412315,neutral
 /c/en/shasta,,
 /c/en/shavian,,
 /c/en/shawnee,,
@@ -4245,7 +4245,7 @@ word,bias,group
 /c/en/sheller,,
 /c/en/shelver,,
 /c/en/shepherd,,
-/c/en/sheriff,0.02902652509510517,neutral
+/c/en/sheriff,0.02902652695775032,neutral
 /c/en/sherpa,,
 /c/en/shiite,,
 /c/en/shill,,
@@ -4455,7 +4455,7 @@ word,bias,group
 /c/en/sparring_partner,,
 /c/en/spartan,,
 /c/en/spastic,,
-/c/en/speaker,0.09893341362476349,neutral
+/c/en/speaker,0.09893340617418289,neutral
 /c/en/spearhead,,
 /c/en/special_agent,,
 /c/en/specialist,,
@@ -4764,7 +4764,7 @@ word,bias,group
 /c/en/teaser,,
 /c/en/techie,,
 /c/en/technical_sergeant,,
-/c/en/technician,0.018763260915875435,neutral
+/c/en/technician,0.018763262778520584,neutral
 /c/en/technocrat,,
 /c/en/technophile,,
 /c/en/technophobe,,
@@ -4927,7 +4927,7 @@ word,bias,group
 /c/en/traveler,,
 /c/en/traverser,,
 /c/en/trawler,,
-/c/en/treasurer,0.027308126911520958,neutral
+/c/en/treasurer,0.02730812504887581,neutral
 /c/en/treasury,,
 /c/en/tree_hugger,,
 /c/en/tree_surgeon,,
@@ -5193,7 +5193,7 @@ word,bias,group
 /c/en/water_witch,,
 /c/en/watercolorist,,
 /c/en/waterer,,
-/c/en/wave,0.03984279930591583,neutral
+/c/en/wave,0.039842795580625534,neutral
 /c/en/waver,,
 /c/en/waverer,,
 /c/en/wax-chandler,,

@@ -81,7 +81,7 @@ word,bias,group
 /c/en/dairymaid,,
 /c/en/dame,,
 /c/en/damsel,,
-/c/en/daughter,0.3323290944099426,female
+/c/en/daughter,0.33232906460762024,female
 /c/en/daughter-in-law,,
 /c/en/daygirl,,
 /c/en/deaconess,,
@@ -106,7 +106,7 @@ word,bias,group
 /c/en/fairy_godmother,,
 /c/en/farm_girl,,
 /c/en/farmerette,,
-/c/en/female,0.08482015877962112,female
+/c/en/female,0.08482014387845993,female
 /c/en/female_aristocrat,,
 /c/en/female_child,,
 /c/en/female_offspring,,
@@ -133,7 +133,7 @@ word,bias,group
 /c/en/girl_friday,,
 /c/en/girl_scout,,
 /c/en/girl_wonder,,
-/c/en/girlfriend,0.021748654544353485,female
+/c/en/girlfriend,0.021748652681708336,female
 /c/en/gitana,,
 /c/en/goddaughter,,
 /c/en/godmother,,
@@ -141,7 +141,7 @@ word,bias,group
 /c/en/golf_widow,,
 /c/en/governess,,
 /c/en/grand_duchess,,
-/c/en/granddaughter,0.0028609451837837696,female
+/c/en/granddaughter,0.0028609454166144133,female
 /c/en/grande_dame,,
 /c/en/granny,,
 /c/en/gravida,,
@@ -165,7 +165,7 @@ word,bias,group
 /c/en/horsewoman,,
 /c/en/hostess,,
 /c/en/housemother,,
-/c/en/housewife,0.004368356429040432,female
+/c/en/housewife,0.004368355963379145,female
 /c/en/huntress,,
 /c/en/idolatress,,
 /c/en/inamorata,,
@@ -231,7 +231,7 @@ word,bias,group
 /c/en/negotiatress,,
 /c/en/negress,,
 /c/en/newswoman,,
-/c/en/niece,0.0028609451837837696,female
+/c/en/niece,0.0028609454166144133,female
 /c/en/niqaabi,,
 /c/en/nullipara,,
 /c/en/nun,,
@@ -312,7 +312,7 @@ word,bias,group
 /c/en/soubrette,,
 /c/en/spinster,,
 /c/en/spitfire,,
-/c/en/spokeswoman,0.004471473395824432,female
+/c/en/spokeswoman,0.004471470136195421,female
 /c/en/squaw,,
 /c/en/squire,,
 /c/en/starlet,,

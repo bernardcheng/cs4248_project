@@ -9,9 +9,9 @@ word,bias,group
 /c/en/archduchess,,
 /c/en/assemblywoman,,
 /c/en/au_pair_girl,,
-/c/en/aunt,0.01086274441331625,female
+/c/en/aunt,0.010862745344638824,female
 /c/en/authoress,,
-/c/en/aviatrix,0.013345425017178059,female
+/c/en/aviatrix,0.013345424085855484,female
 /c/en/ayah,,
 /c/en/b-girl,,
 /c/en/bacchante,,
@@ -141,7 +141,7 @@ word,bias,group
 /c/en/golf_widow,,
 /c/en/governess,,
 /c/en/grand_duchess,,
-/c/en/granddaughter,0.01086274441331625,female
+/c/en/granddaughter,0.010862745344638824,female
 /c/en/grande_dame,,
 /c/en/granny,,
 /c/en/gravida,,
@@ -156,7 +156,7 @@ word,bias,group
 /c/en/harridan,,
 /c/en/headmistress,,
 /c/en/heiress,,
-/c/en/her,0.7144695520401001,female
+/c/en/her,0.7144696116447449,female
 /c/en/heroine,,
 /c/en/hers,,
 /c/en/herself,,
@@ -214,7 +214,7 @@ word,bias,group
 /c/en/milady,,
 /c/en/mill-girl,,
 /c/en/millionairess,,
-/c/en/miss,0.7144818305969238,female
+/c/en/miss,0.7144818902015686,female
 /c/en/missus,,
 /c/en/mistress,,
 /c/en/mother,0.5530731678009033,female
@@ -231,7 +231,7 @@ word,bias,group
 /c/en/negotiatress,,
 /c/en/negress,,
 /c/en/newswoman,,
-/c/en/niece,0.01086274441331625,female
+/c/en/niece,0.010862745344638824,female
 /c/en/niqaabi,,
 /c/en/nullipara,,
 /c/en/nun,,
@@ -301,7 +301,7 @@ word,bias,group
 /c/en/sibyl,,
 /c/en/signora,,
 /c/en/signorina,,
-/c/en/sister,0.013012698851525784,female
+/c/en/sister,0.01301269605755806,female
 /c/en/sister-in-law,,
 /c/en/skivvy,,
 /c/en/slattern,,
@@ -312,7 +312,7 @@ word,bias,group
 /c/en/soubrette,,
 /c/en/spinster,,
 /c/en/spitfire,,
-/c/en/spokeswoman,0.015158848837018013,female
+/c/en/spokeswoman,0.015158847905695438,female
 /c/en/squaw,,
 /c/en/squire,,
 /c/en/starlet,,
@@ -358,8 +358,8 @@ word,bias,group
 /c/en/wet_nurse,,
 /c/en/white_slave,,
 /c/en/white_woman,,
-/c/en/widow,0.6877388954162598,female
-/c/en/wife,0.07259275019168854,female
+/c/en/widow,0.6877389550209045,female
+/c/en/wife,0.07259274274110794,female
 /c/en/woman,0.7090563774108887,female
 /c/en/women,0.009294585324823856,female
 /c/en/wonder_woman,,

@@ -178,7 +178,7 @@ word,bias,group
 /c/en/jilt,,
 /c/en/kinswoman,,
 /c/en/ladies,,
-/c/en/lady,0.7073121666908264,female
+/c/en/lady,0.7073120474815369,female
 /c/en/lady's_maid,,
 /c/en/ladylove,,
 /c/en/landlady,,
@@ -217,7 +217,7 @@ word,bias,group
 /c/en/miss,,
 /c/en/missus,,
 /c/en/mistress,,
-/c/en/mother,0.6209259033203125,female
+/c/en/mother,0.6209258437156677,female
 /c/en/mother_figure,,
 /c/en/mother_hen,,
 /c/en/mother-in-law,,
@@ -301,7 +301,7 @@ word,bias,group
 /c/en/sibyl,,
 /c/en/signora,,
 /c/en/signorina,,
-/c/en/sister,0.08414458483457565,female
+/c/en/sister,0.08414457738399506,female
 /c/en/sister-in-law,,
 /c/en/skivvy,,
 /c/en/slattern,,
@@ -359,9 +359,9 @@ word,bias,group
 /c/en/white_slave,,
 /c/en/white_woman,,
 /c/en/widow,,
-/c/en/wife,0.011095297522842884,female
-/c/en/woman,0.7078258395195007,female
-/c/en/women,0.2909611165523529,female
+/c/en/wife,0.011095295660197735,female
+/c/en/woman,0.707825779914856,female
+/c/en/women,0.2909611761569977,female
 /c/en/wonder_woman,,
 /c/en/working_girl,,
 /c/en/yellow_woman,,

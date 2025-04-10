@@ -30,7 +30,7 @@ word,bias,group
 /c/en/basileus,,
 /c/en/bass,,
 /c/en/bat_boy,,
-/c/en/batman,0.7207894921302795,male
+/c/en/batman,0.7207894325256348,male
 /c/en/beadsman,0.7208195924758911,male
 /c/en/beggarman,,
 /c/en/bellboy,,
@@ -62,7 +62,7 @@ word,bias,group
 /c/en/busboy,,
 /c/en/bushman,,
 /c/en/businessman,0.00485993642359972,male
-/c/en/butler,0.04187573865056038,male
+/c/en/butler,0.041875749826431274,male
 /c/en/cabin_boy,,
 /c/en/cameraman,,
 /c/en/capo,,
@@ -98,7 +98,7 @@ word,bias,group
 /c/en/councilman,,
 /c/en/count,0.00839032232761383,male
 /c/en/countertenor,,
-/c/en/countryman,0.02098606526851654,male
+/c/en/countryman,0.020986057817935944,male
 /c/en/cowboy,,
 /c/en/craftsman,,
 /c/en/crewman,,
@@ -165,7 +165,7 @@ word,bias,group
 /c/en/fellow,0.532918393611908,male
 /c/en/ferryman,,
 /c/en/feudal_lord,,
-/c/en/fireman,0.004899701569229364,male
+/c/en/fireman,0.004899701103568077,male
 /c/en/first_baseman,,
 /c/en/fisherman,0.004309509415179491,male
 /c/en/flamen,,
@@ -177,7 +177,7 @@ word,bias,group
 /c/en/foster-son,,
 /c/en/four-minute_man,,
 /c/en/franklin,,
-/c/en/freedman,0.7269715666770935,male
+/c/en/freedman,0.7269716262817383,male
 /c/en/freeman,0.5034047961235046,male
 /c/en/frenchman,,
 /c/en/friar,,
@@ -194,7 +194,7 @@ word,bias,group
 /c/en/gay_man,,
 /c/en/geezer,,
 /c/en/gent,,
-/c/en/gentleman,0.7021957635879517,male
+/c/en/gentleman,0.7021957039833069,male
 /c/en/gentlemen,0.040436554700136185,male
 /c/en/gillie,,
 /c/en/gitano,,
@@ -376,7 +376,7 @@ word,bias,group
 /c/en/plowboy,,
 /c/en/plowman,,
 /c/en/point_man,,
-/c/en/pointsman,0.7269715666770935,male
+/c/en/pointsman,0.7269716262817383,male
 /c/en/policeman,0.013083097524940968,male
 /c/en/polycarp,,
 /c/en/polygynist,,
@@ -409,7 +409,7 @@ word,bias,group
 /c/en/romeo,,
 /c/en/roundsman,,
 /c/en/sadhu,,
-/c/en/salesman,0.0027263422962278128,male
+/c/en/salesman,0.0027263425290584564,male
 /c/en/samurai,,
 /c/en/sandboy,,
 /c/en/sandwichman,,
@@ -443,7 +443,7 @@ word,bias,group
 /c/en/small_businessman,,
 /c/en/sod,,
 /c/en/sodomite,,
-/c/en/son,0.0038013572338968515,male
+/c/en/son,0.0038013390731066465,male
 /c/en/son-in-law,,
 /c/en/soul_brother,,
 /c/en/soundman,,
@@ -477,7 +477,7 @@ word,bias,group
 /c/en/third_baseman,,
 /c/en/timberman,,
 /c/en/tom,,
-/c/en/town,0.0051744128577411175,male
+/c/en/town,0.005174417980015278,male
 /c/en/townee,,
 /c/en/townes,,
 /c/en/townsman,,
@@ -486,7 +486,7 @@ word,bias,group
 /c/en/trappist,,
 /c/en/traveling_salesman,,
 /c/en/tribesman,,
-/c/en/uncle,0.0032565067522227764,male
+/c/en/uncle,0.00325650698505342,male
 /c/en/uriah,,
 /c/en/utility_man,,
 /c/en/uxoricide,,

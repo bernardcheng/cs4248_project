@@ -81,7 +81,7 @@ word,bias,group
 /c/en/dairymaid,,
 /c/en/dame,,
 /c/en/damsel,,
-/c/en/daughter,0.5608750581741333,female
+/c/en/daughter,0.5608749985694885,female
 /c/en/daughter-in-law,,
 /c/en/daygirl,,
 /c/en/deaconess,,
@@ -156,7 +156,7 @@ word,bias,group
 /c/en/harridan,,
 /c/en/headmistress,,
 /c/en/heiress,,
-/c/en/her,0.5640391111373901,female
+/c/en/her,0.5640391707420349,female
 /c/en/heroine,,
 /c/en/hers,,
 /c/en/herself,,
@@ -178,7 +178,7 @@ word,bias,group
 /c/en/jilt,,
 /c/en/kinswoman,,
 /c/en/ladies,,
-/c/en/lady,0.15897886455059052,female
+/c/en/lady,0.15897884964942932,female
 /c/en/lady's_maid,,
 /c/en/ladylove,,
 /c/en/landlady,,

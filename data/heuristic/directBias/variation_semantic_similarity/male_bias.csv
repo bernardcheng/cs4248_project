@@ -82,7 +82,7 @@ word,bias,group
 /c/en/church_father,,
 /c/en/city_man,,
 /c/en/clansman,,
-/c/en/clergyman,0.03829323872923851,male
+/c/en/clergyman,0.03829324245452881,male
 /c/en/cleric,,
 /c/en/closet_queen,,
 /c/en/coachman,,
@@ -98,7 +98,7 @@ word,bias,group
 /c/en/councilman,,
 /c/en/count,,
 /c/en/countertenor,,
-/c/en/countryman,0.025164134800434113,male
+/c/en/countryman,0.025164132937788963,male
 /c/en/cowboy,,
 /c/en/craftsman,,
 /c/en/crewman,,
@@ -109,7 +109,7 @@ word,bias,group
 /c/en/curandero,,
 /c/en/cyril,,
 /c/en/czar,,
-/c/en/dad,0.03108234331011772,male
+/c/en/dad,0.03108234889805317,male
 /c/en/dairyman,,
 /c/en/dalesman,,
 /c/en/dandy,,
@@ -156,7 +156,7 @@ word,bias,group
 /c/en/fancy_man,,
 /c/en/farm_boy,,
 /c/en/fathead,,
-/c/en/father,0.015460945665836334,male
+/c/en/father,0.01546094473451376,male
 /c/en/father_figure,,
 /c/en/father-figure,,
 /c/en/father-in-law,,
@@ -204,7 +204,7 @@ word,bias,group
 /c/en/good_old_boy,,
 /c/en/grand_duke,,
 /c/en/grandee,,
-/c/en/grandfather,0.028228195384144783,male
+/c/en/grandfather,0.028228197246789932,male
 /c/en/grandson,,
 /c/en/grass_widower,,
 /c/en/great_grandfather,,
@@ -217,7 +217,7 @@ word,bias,group
 /c/en/groundsman,,
 /c/en/guardsman,,
 /c/en/gunman,,
-/c/en/guy,0.07442910969257355,male
+/c/en/guy,0.07442912459373474,male
 /c/en/handyman,,
 /c/en/hangman,,
 /c/en/hatchet_man,,
@@ -281,7 +281,7 @@ word,bias,group
 /c/en/lobsterman,,
 /c/en/longbowman,,
 /c/en/loon,,
-/c/en/lord,0.034834954887628555,male
+/c/en/lord,0.03483496233820915,male
 /c/en/lord_chancellor,,
 /c/en/lothario,,
 /c/en/lounge_lizard,,
@@ -311,7 +311,7 @@ word,bias,group
 /c/en/marquis,,
 /c/en/masseur,,
 /c/en/medicine_man,,
-/c/en/men,0.6995333433151245,male
+/c/en/men,0.6995332837104797,male
 /c/en/mesne_lord,,
 /c/en/messenger_boy,,
 /c/en/mestizo,,
@@ -338,7 +338,7 @@ word,bias,group
 /c/en/mullah,,
 /c/en/muscleman,,
 /c/en/nabob,,
-/c/en/nephew,0.028715498745441437,male
+/c/en/nephew,0.028715506196022034,male
 /c/en/night_watchman,0.07499570399522781,male
 /c/en/novillero,,
 /c/en/nuncio,,
@@ -396,7 +396,7 @@ word,bias,group
 /c/en/property_man,,
 /c/en/quarryman,,
 /c/en/raftsman,,
-/c/en/raja,0.03818773478269577,male
+/c/en/raja,0.03818773105740547,male
 /c/en/rake,,
 /c/en/remittance_man,,
 /c/en/renaissance_man,,

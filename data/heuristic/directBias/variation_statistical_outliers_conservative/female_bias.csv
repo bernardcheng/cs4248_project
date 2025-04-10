@@ -106,7 +106,7 @@ word,bias,group
 /c/en/fairy_godmother,,
 /c/en/farm_girl,,
 /c/en/farmerette,,
-/c/en/female,0.2879658639431,female
+/c/en/female,0.28796589374542236,female
 /c/en/female_aristocrat,,
 /c/en/female_child,,
 /c/en/female_offspring,,
@@ -214,10 +214,10 @@ word,bias,group
 /c/en/milady,,
 /c/en/mill-girl,,
 /c/en/millionairess,,
-/c/en/miss,0.6687197089195251,female
+/c/en/miss,0.6687197685241699,female
 /c/en/missus,,
 /c/en/mistress,,
-/c/en/mother,0.582067608833313,female
+/c/en/mother,0.5820675492286682,female
 /c/en/mother_figure,,
 /c/en/mother_hen,,
 /c/en/mother-in-law,,
@@ -359,7 +359,7 @@ word,bias,group
 /c/en/white_slave,,
 /c/en/white_woman,,
 /c/en/widow,,
-/c/en/wife,0.0058093201369047165,female
+/c/en/wife,0.005809319205582142,female
 /c/en/woman,0.6437195539474487,female
 /c/en/women,0.26795169711112976,female
 /c/en/wonder_woman,,

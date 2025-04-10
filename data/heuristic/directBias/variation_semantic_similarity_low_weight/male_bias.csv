@@ -98,7 +98,7 @@ word,bias,group
 /c/en/councilman,,
 /c/en/count,,
 /c/en/countertenor,,
-/c/en/countryman,0.011687344871461391,male
+/c/en/countryman,0.011687343008816242,male
 /c/en/cowboy,,
 /c/en/craftsman,,
 /c/en/crewman,,
@@ -338,7 +338,7 @@ word,bias,group
 /c/en/mullah,,
 /c/en/muscleman,,
 /c/en/nabob,,
-/c/en/nephew,0.0074729230254888535,male
+/c/en/nephew,0.00747290812432766,male
 /c/en/night_watchman,0.10821948945522308,male
 /c/en/novillero,,
 /c/en/nuncio,,
@@ -396,7 +396,7 @@ word,bias,group
 /c/en/property_man,,
 /c/en/quarryman,,
 /c/en/raftsman,,
-/c/en/raja,0.01832771673798561,male
+/c/en/raja,0.018327711150050163,male
 /c/en/rake,,
 /c/en/remittance_man,,
 /c/en/renaissance_man,,

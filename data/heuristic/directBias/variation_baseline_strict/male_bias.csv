@@ -30,7 +30,7 @@ word,bias,group
 /c/en/basileus,,
 /c/en/bass,,
 /c/en/bat_boy,,
-/c/en/batman,0.7198771834373474,male
+/c/en/batman,0.7198772430419922,male
 /c/en/beadsman,0.7199022769927979,male
 /c/en/beggarman,,
 /c/en/bellboy,,
@@ -61,7 +61,7 @@ word,bias,group
 /c/en/burgrave,,
 /c/en/busboy,,
 /c/en/bushman,,
-/c/en/businessman,0.0052322642877697945,male
+/c/en/businessman,0.005232263822108507,male
 /c/en/butler,0.038164544850587845,male
 /c/en/cabin_boy,,
 /c/en/cameraman,,
@@ -82,7 +82,7 @@ word,bias,group
 /c/en/church_father,,
 /c/en/city_man,,
 /c/en/clansman,,
-/c/en/clergyman,0.011007656343281269,male
+/c/en/clergyman,0.011007662862539291,male
 /c/en/cleric,0.01058939564973116,male
 /c/en/closet_queen,,
 /c/en/coachman,,
@@ -98,7 +98,7 @@ word,bias,group
 /c/en/councilman,,
 /c/en/count,0.006247078068554401,male
 /c/en/countertenor,,
-/c/en/countryman,0.02534315548837185,male
+/c/en/countryman,0.025343157351017,male
 /c/en/cowboy,,
 /c/en/craftsman,,
 /c/en/crewman,,
@@ -165,7 +165,7 @@ word,bias,group
 /c/en/fellow,0.5448682904243469,male
 /c/en/ferryman,,
 /c/en/feudal_lord,,
-/c/en/fireman,0.005100978538393974,male
+/c/en/fireman,0.005100978072732687,male
 /c/en/first_baseman,,
 /c/en/fisherman,0.00471970671787858,male
 /c/en/flamen,,
@@ -204,7 +204,7 @@ word,bias,group
 /c/en/good_old_boy,,
 /c/en/grand_duke,,
 /c/en/grandee,,
-/c/en/grandfather,0.003195732831954956,male
+/c/en/grandfather,0.0031957323662936687,male
 /c/en/grandson,0.0031847842037677765,male
 /c/en/grass_widower,,
 /c/en/great_grandfather,,
@@ -221,12 +221,12 @@ word,bias,group
 /c/en/handyman,,
 /c/en/hangman,,
 /c/en/hatchet_man,,
-/c/en/he,0.7198620438575745,male
+/c/en/he,0.719862163066864,male
 /c/en/head_linesman,,
 /c/en/headman,,
 /c/en/headsman,,
 /c/en/heidelberg_man,,
-/c/en/helmsman,0.006355997174978256,male
+/c/en/helmsman,0.0063559976406395435,male
 /c/en/herr,,
 /c/en/him,,
 /c/en/himself,0.00435046898201108,male
@@ -292,7 +292,7 @@ word,bias,group
 /c/en/mafioso,,
 /c/en/maharaja,,
 /c/en/mailman,,
-/c/en/male,0.09196481853723526,male
+/c/en/male,0.09196481108665466,male
 /c/en/male_aristocrat,,
 /c/en/male_chauvinist,,
 /c/en/male_child,,
@@ -306,7 +306,7 @@ word,bias,group
 /c/en/man-at-arms,,
 /c/en/manservant,0.7199022769927979,male
 /c/en/margrave,,
-/c/en/marksman,0.004885759670287371,male
+/c/en/marksman,0.004885756876319647,male
 /c/en/marquess,,
 /c/en/marquis,,
 /c/en/masseur,,
@@ -492,7 +492,7 @@ word,bias,group
 /c/en/uxoricide,,
 /c/en/vaquero,,
 /c/en/vestryman,,
-/c/en/vicar,0.014442693442106247,male
+/c/en/vicar,0.014442695304751396,male
 /c/en/vicar_apostolic,,
 /c/en/vicar-general,,
 /c/en/vice_chairman,,
